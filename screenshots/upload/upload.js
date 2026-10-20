@@ -26,6 +26,16 @@ const PAGE_NAMES = { vaping: 'Vaping', smoking: 'Smoking', drinking: 'Drinking',
 const EDITABLE = new Set(['PREPARE_FOR_SUBMISSION', 'DEVELOPER_REJECTED', 'REJECTED', 'METADATA_REJECTED', 'INVALID_BINARY']);
 
 // ── API ──────────────────────────────────────────────────────────────────────
+// A dropped connection is retried rather than ending a long upload.
+async function fetchRetry(url, init) {
+  for (let attempt = 0; ; attempt++) {
+    try { return await fetch(url, init); } catch (e) {
+      if (attempt >= 5) throw e;
+      await new Promise(r => setTimeout(r, 5000 * (attempt + 1)));
+    }
+  }
+}
+
 let jwt = { value: '', exp: 0 };
 function token() {
   const now = Math.floor(Date.now() / 1000);
@@ -40,7 +50,7 @@ function token() {
 
 async function api(method, url, body) {
   for (let attempt = 0; ; attempt++) {
-    const res = await fetch(url.startsWith('http') ? url : API + url, {
+    const res = await fetchRetry(url.startsWith('http') ? url : API + url, {
       method,
       headers: { Authorization: `Bearer ${token()}`, 'Content-Type': 'application/json' },
       body: body ? JSON.stringify(body) : undefined,
@@ -70,7 +80,7 @@ async function uploadFile(setId, file) {
   });
   for (const op of made.data.attributes.uploadOperations) {
     const headers = Object.fromEntries(op.requestHeaders.map(h => [h.name, h.value]));
-    const res = await fetch(op.url, { method: op.method, headers, body: data.subarray(op.offset, op.offset + op.length) });
+    const res = await fetchRetry(op.url, { method: op.method, headers, body: data.subarray(op.offset, op.offset + op.length) });
     if (!res.ok) throw new Error(`upload part of ${file} -> ${res.status}`);
   }
   await api('PATCH', `/appScreenshots/${made.data.id}`, {
@@ -157,7 +167,12 @@ async function listing() {
       for (const key of Object.keys(b)) if (b[key] === undefined) delete b[key];
       const vl = versionLocs.find(l => l.attributes.locale === locale);
       if (vl) await api('PATCH', `/appStoreVersionLocalizations/${vl.id}`, { data: { type: 'appStoreVersionLocalizations', id: vl.id, attributes: b } });
-      else await api('POST', '/appStoreVersionLocalizations', { data: { type: 'appStoreVersionLocalizations', attributes: { locale, ...b }, relationships: { appStoreVersion: rel('appStoreVersions', version.id) } } });
+      else {
+        // Creating the app info language can create this one too: update it then.
+        const fresh = (await all(`/appStoreVersions/${version.id}/appStoreVersionLocalizations?limit=50`)).find(l => l.attributes.locale === locale);
+        if (fresh) await api('PATCH', `/appStoreVersionLocalizations/${fresh.id}`, { data: { type: 'appStoreVersionLocalizations', id: fresh.id, attributes: b } });
+        else await api('POST', '/appStoreVersionLocalizations', { data: { type: 'appStoreVersionLocalizations', attributes: { locale, ...b }, relationships: { appStoreVersion: rel('appStoreVersions', version.id) } } });
+      }
       console.log(`  ${locale}: listing updated`);
     } catch (e) {
       failures.push(`${locale}: ${e.message}`);
