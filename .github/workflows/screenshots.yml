@@ -153,8 +153,8 @@ jobs:
             done_count=$((done_count+1))
           done
           if [ -n "$failed" ]; then echo "$failed" > failed.txt; echo "Skipped:$failed"; fi
-          # Fail the job only if nothing at all was captured.
-          [ $done_count -gt 0 ]
+          # Fail the job only if it had languages and captured none of them.
+          [ $done_count -gt 0 ] || [ -z "$failed" ]
       - uses: actions/upload-artifact@v4
         if: always() && steps.want.outputs.run
         with:
