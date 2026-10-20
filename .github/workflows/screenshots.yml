@@ -101,48 +101,78 @@ jobs:
           xcrun simctl install "$udid" "$(find app -maxdepth 3 -name '*.app' | head -1)"
       - name: Capture this half of the languages
         if: steps.want.outputs.run
+        env:
+          # The XCTest driver can take minutes to start on GitHub's Macs
+          # (default 15 s, in ms).
+          MAESTRO_DRIVER_STARTUP_TIMEOUT: '300000'
         run: |
           # Ordered by App Store reach, so the biggest markets come first.
           all="en es pt fr de ja zh zh-Hant ko it ru tr nl pl ar id vi th sv da nb fi he cs el ro hu hi ms uk"
           langs="${{ inputs.languages }}"; [ "$langs" = all ] && langs="$all"; langs="${langs//,/ }"
           region() { case "$1" in zh-Hant) echo TW;; nb) echo NO;; he) echo IL;; el) echo GR;; cs) echo CZ;; uk) echo UA;; vi) echo VN;; en) echo US;; pt) echo BR;; zh) echo CN;; ja) echo JP;; ko) echo KR;; ar) echo SA;; hi) echo IN;; ms) echo MY;; da) echo DK;; sv) echo SE;; *) echo "$1" | tr a-z A-Z;; esac; }   # macOS bash 3.2: no ${1^^}
           mkdir -p work
-          i=0
+          shots() { find ~/.maestro/tests -path '*/takeScreenshot/*' -name '*.png' 2>/dev/null || true; }
+          # One page, up to three tries: a slow driver start or a stray
+          # system alert shouldn't cost the whole language.
+          capture() {
+            for try in 1 2 3; do
+              # -e must come before the flow file.
+              if (cd work && maestro --device "$UDID" test \
+                    -e PAGE="$1" -e SCOPE="$2" -e DEVICE="${{ matrix.device }}" \
+                    ../.github/maestro/capture.yaml); then return 0; fi
+              echo "::warning::$lang $1: try $try failed"
+              xcrun simctl terminate "$UDID" com.mikaal.spacer || true
+              sleep 10
+            done
+            return 1
+          }
+          i=0; done_count=0; failed=""
           for lang in $langs; do
             i=$((i+1))
             # Alternate languages between the two Macs of this device.
             [ $(( (i + ${{ matrix.part }}) % 2 )) -eq 0 ] || continue
+            # Nothing left over from a language that failed.
+            shots | while read -r f; do rm -f "$f"; done
             # The app's own language, so nothing needs a reboot between languages.
             xcrun simctl spawn "$UDID" defaults write com.mikaal.spacer AppleLanguages -array "$lang"
             xcrun simctl spawn "$UDID" defaults write com.mikaal.spacer AppleLocale "${lang%%-*}_$(region "$lang")"
+            ok=1
             for page in main vaping smoking drinking screens; do
               scope=page; [ "$page" = main ] && scope=all
-              # -e must come before the flow file.
-              (cd work && maestro --device "$UDID" test \
-                -e PAGE="$page" -e SCOPE="$scope" -e DEVICE="${{ matrix.device }}" \
-                ../.github/maestro/capture.yaml)
+              capture "$page" "$scope" || { ok=0; break; }
             done
+            if [ $ok = 0 ]; then
+              # Skip the language rather than upload half a set.
+              failed="$failed $lang"; echo "::error::$lang skipped on ${{ matrix.device }}"
+              continue
+            fi
             mkdir -p "screenshots/raw/${{ matrix.device }}/$lang"
             # Maestro saves takeScreenshot files in its own run folder.
-            find ~/.maestro/tests -path '*/takeScreenshot/*' -name '*.png' -exec mv {} "screenshots/raw/${{ matrix.device }}/$lang/" \;
+            shots | while read -r f; do mv "$f" "screenshots/raw/${{ matrix.device }}/$lang/"; done
             echo "$lang: $(ls screenshots/raw/${{ matrix.device }}/$lang | wc -l) screens"
+            done_count=$((done_count+1))
           done
+          if [ -n "$failed" ]; then echo "$failed" > failed.txt; echo "Skipped:$failed"; fi
+          # Fail the job only if nothing at all was captured.
+          [ $done_count -gt 0 ]
       - uses: actions/upload-artifact@v4
-        if: steps.want.outputs.run
+        if: always() && steps.want.outputs.run
         with:
           name: raw-${{ matrix.device }}-${{ matrix.part }}
           path: screenshots/raw
+          if-no-files-found: ignore
           retention-days: 3
       - uses: actions/upload-artifact@v4
-        if: failure() && steps.want.outputs.run
+        if: always() && steps.want.outputs.run && (failure() || hashFiles('failed.txt') != '')
         with:
           name: maestro-debug-${{ matrix.device }}-${{ matrix.part }}
           path: ~/.maestro/tests
           retention-days: 3
 
   compose:
-    needs: capture
-    if: always() && needs.capture.result == 'success'
+    needs: [app, capture]
+    # Frame whatever was captured, even if one Mac came back empty.
+    if: always() && needs.app.result == 'success' && needs.capture.result != 'cancelled'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
