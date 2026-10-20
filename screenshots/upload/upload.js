@@ -58,6 +58,8 @@ async function api(method, url, body) {
     // Apple allows about 3600 calls an hour: when that runs out, wait a minute
     // at a time (up to two hours) rather than fail a long upload halfway.
     if (res.status === 429 && attempt < 120) { if (attempt % 10 === 0) console.log('  rate limited by Apple, waiting'); await new Promise(r => setTimeout(r, 60_000)); continue; }
+    // Apple now and then rejects a valid token: sign a fresh one and retry.
+    if (res.status === 401 && attempt < 5) { jwt = { value: '', exp: 0 }; await new Promise(r => setTimeout(r, 5000)); continue; }
     if (res.status >= 500 && attempt < 5) { await new Promise(r => setTimeout(r, 2000 * (attempt + 1))); continue; }
     const text = await res.text();
     const json = text ? JSON.parse(text) : {};
@@ -96,7 +98,11 @@ async function replaceSet(setsUrl, ownerRel, displayType, files, label) {
   if (!set) {
     set = (await api('POST', '/appScreenshotSets', { data: { type: 'appScreenshotSets', attributes: { screenshotDisplayType: displayType }, relationships: ownerRel } })).data;
   }
-  for (const old of await all(`/appScreenshotSets/${set.id}/appScreenshots`)) await api('DELETE', `/appScreenshots/${old.id}`);
+  const existing = await all(`/appScreenshotSets/${set.id}/appScreenshots`);
+  // Already uploaded (same files, same order): nothing to do, so a rerun picks up where it stopped.
+  const same = existing.length === files.length && existing.every((e, i) => e.attributes.fileName === path.basename(files[i]) && e.attributes.fileSize === fs.statSync(files[i]).size && e.attributes.assetDeliveryState?.state !== 'FAILED');
+  if (same) { console.log(`  ${label} ${displayType}: already up to date`); return; }
+  for (const old of existing) await api('DELETE', `/appScreenshots/${old.id}`);
   const ids = [];
   for (const f of files) ids.push(await uploadFile(set.id, f));
   await api('PATCH', `/appScreenshotSets/${set.id}/relationships/appScreenshots`, { data: ids.map(id => ({ type: 'appScreenshots', id })) });
