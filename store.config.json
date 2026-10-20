@@ -1,0 +1,1108 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "info": {
+      "ar-SA": {
+        "title": "Spacer: اترك العادات السيئة",
+        "subtitle": "تدخين وفيب وكحول أقل",
+        "description": "يساعدك Spacer على التخلّي عن عادة بوتيرة تستطيع الالتزام بها، بدلًا من الإقلاع دفعة واحدة.\n\nفي كل مرة تنتظر الفترة كاملة، تطول الفترة التالية قليلًا. الفيب أو التدخين أو الشرب أو التمرير بلا نهاية أو الألعاب: يمدّ Spacer العادة ببطء حتى تتلاشى.\n\nكيف يساعدك\n• خطة لطيفة تخبرك متى يمكنك مجددًا، مع انتظار يطول قليلًا كل مرة.\n• وقت يومي للشاشات أو الألعاب يقلّ قليلًا كل صباح.\n• مساعدة عندما تأتي الرغبة مبكرًا: تنفّس، وتأريض، وانتظار خمس دقائق، وسببك أنت بصوتك أنت.\n• لا سلاسل ولا خجل. الزلّة لا تعيدك إلى الصفر أبدًا.\n• رؤى حول متى يحدث ذلك، وما الذي يثيره، وما الذي يساعد، وإلى أين تأخذك وتيرتك.\n• أدوات وأنشطة مباشرة، لترى موعد الفتح التالي بنظرة.\n\nخصوصية من الأساس\nبلا حساب. تبقى عاداتك وملاحظاتك على جهازك. يرسل Spacer إحصاءات استخدام مجهولة فقط، ولا يرسل ما تكتبه أبدًا.\n\nSpacer Pro\nعادات أكثر، وتقارير لطبيب أو شخص تثق به، والأداة المتوسطة، والأنشطة المباشرة، ووتيرتك ومواعيد نومك الخاصة، وتصدير البيانات.\n\nملاحظة حول السلامة\nالتوقف المفاجئ عن الكحول أو البنزوديازيبينات أو الباربيتورات أو الأفيونات قد يكون خطيرًا. لهذه الحالات يُبقيك Spacer على ألطف وتيرة ويوقف الوصول الطارئ. إنه يدعم الرعاية الطبية ولا يحلّ محلها.",
+        "keywords": [
+          "إقلاع",
+          "سجائر",
+          "نيكوتين",
+          "إدمان",
+          "شاشة",
+          "الهاتف",
+          "ألعاب",
+          "تقليل",
+          "رغبة",
+          "عادة",
+          "تدريجي",
+          "الشرب",
+          "nnn"
+        ],
+        "promoText": "تخلَّ عن أي عادة بوتيرتك الخاصة. كل انتظار يطول قليلًا، والزلّة لا تعيدك إلى الصفر أبدًا.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "الجديد\n• تصميم أهدأ، مصمم لجهاز iPhone وiPad\n• مسارك: شاهد إلى أين تأخذك كل وتيرة، مع نطاق مرجّح من بياناتك\n• لم تعد الزلّات والوصول الطارئ تكلّفك تقدّمك. وإذا صار الاستخدام المبكر نمطًا، يخفّف Spacer الانتظار إلى انتظار تستطيع الالتزام به\n• أدوات وأنشطة مباشرة\n• محطات إنجاز وترحيب هادئ بعد غياب",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/ar/01_HomeScreen.png",
+            "listing/ar/05_SlipScreen.png",
+            "listing/ar/07_SettingsScreen.png",
+            "listing/ar/03_HistoryInsights.png",
+            "listing/ar/06_Doomscrolling.png",
+            "listing/ar/04_HistoryInsights_Triggers.png",
+            "listing/ar/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "da": {
+        "title": "Spacer: Stop vaner langsomt",
+        "subtitle": "Mindre vape, rygning, alkohol",
+        "description": "Spacer hjælper dig med at slippe en vane i et tempo, du kan holde, i stedet for at stoppe brat.\n\nHver gang du venter pausen ud, bliver den næste lidt længere. Vape, rygning, drikke, endeløs scrolling eller gaming: Spacer strækker vanen langsomt ud, til den falmer.\n\nSådan hjælper den\n• En blid plan, der fortæller dig, hvornår du må igen, med en ventetid, der vokser lidt hver gang.\n• En daglig tid til skærme eller spil, der bliver lidt mindre hver morgen.\n• Hjælp, når trangen kommer for tidligt: vejrtrækning, jordforbindelse, fem minutters ventetid og din egen grund, med din egen stemme.\n• Ingen streaks og ingen skam. Et tilbagefald sender dig aldrig tilbage til nul.\n• Indsigt i hvornår det sker, hvad der udløser det, hvad der hjælper, og hvor dit tempo fører dig hen.\n• Widgets og Live Activities, så din næste åbning altid er et blik væk.\n\nPrivat fra starten\nIngen konto. Dine vaner og noter bliver på din enhed. Spacer sender kun anonyme brugsstatistikker, aldrig hvad du skriver.\n\nSpacer Pro\nFlere vaner, rapporter til en behandler eller en, du stoler på, den mellemstore widget, Live Activities, dit eget tempo og søvnvindue samt dataeksport.\n\nEt ord om sikkerhed\nAt stoppe brat med alkohol, benzodiazepiner, barbiturater eller opioider kan være farligt. Her holder Spacer dig på det blideste tempo og slår nødadgang fra. Den støtter lægelig behandling og erstatter den ikke.",
+        "keywords": [
+          "dårlige",
+          "nikotin",
+          "cigaret",
+          "ryge",
+          "afhængighed",
+          "skærm",
+          "telefon",
+          "gaming",
+          "trappe",
+          "ned",
+          "reducere",
+          "ædru",
+          "trang",
+          "nnn"
+        ],
+        "promoText": "Slip enhver vane i dit eget tempo. Hver ventetid vokser lidt, og et tilbagefald sender dig aldrig tilbage til nul.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Nyt\n• Et roligere design, lavet til iPhone og iPad\n• Din vej: se hvor hvert tempo fører dig hen, med et sandsynligt spænd ud fra dine egne data\n• Tilbagefald og nødadgang koster dig ikke længere fremskridt. Bliver tidlig brug et mønster, sætter Spacer ventetiden tilbage til en, du kan holde\n• Widgets og Live Activities\n• Milepæle og en blid velkomst efter en pause",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/da/01_HomeScreen.png",
+            "listing/da/05_SlipScreen.png",
+            "listing/da/07_SettingsScreen.png",
+            "listing/da/03_HistoryInsights.png",
+            "listing/da/06_Doomscrolling.png",
+            "listing/da/04_HistoryInsights_Triggers.png",
+            "listing/da/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "de-DE": {
+        "title": "Spacer: Langsam aufhören",
+        "subtitle": "Rauchen, Dampfen & Alkohol",
+        "description": "Spacer hilft dir, dir eine Gewohnheit in einem Tempo abzugewöhnen, das du durchhalten kannst, statt von heute auf morgen aufzuhören.\n\nJedes Mal, wenn du die Pause abwartest, wird die nächste ein wenig länger. Dampfen, Rauchen, Trinken, endloses Scrollen oder Zocken: Spacer streckt die Gewohnheit langsam, bis sie verblasst.\n\nSo hilft Spacer\n• Ein sanfter Plan, der dir sagt, wann du wieder darfst, mit einer Wartezeit, die jedes Mal ein wenig wächst.\n• Eine tägliche Zeit für Bildschirme oder Spiele, die jeden Morgen etwas kleiner wird.\n• Hilfe, wenn das Verlangen zu früh kommt: Atmen, Erden, fünf Minuten Warten und dein eigener Grund, mit deiner eigenen Stimme.\n• Keine Serien und keine Scham. Ein Ausrutscher wirft dich nie auf null zurück.\n• Einblicke, wann es passiert, was es auslöst, was hilft und wohin dich dein Tempo führt.\n• Widgets und Live-Aktivitäten, damit du deine nächste Öffnung auf einen Blick siehst.\n\nPrivat von Grund auf\nKein Konto. Deine Gewohnheiten und Notizen bleiben auf deinem Gerät. Spacer sendet nur anonyme Nutzungsstatistiken, nie, was du schreibst.\n\nSpacer Pro\nMehr Gewohnheiten, Berichte für Ärztin, Arzt oder eine Vertrauensperson, das mittlere Widget, Live-Aktivitäten, dein eigenes Tempo und Schlaffenster sowie Datenexport.\n\nEin Hinweis zur Sicherheit\nAlkohol, Benzodiazepine, Barbiturate oder Opioide plötzlich abzusetzen kann gefährlich sein. Dafür hält dich Spacer im sanftesten Tempo und schaltet den Notfallzugang ab. Spacer begleitet eine ärztliche Behandlung, ersetzt sie aber nicht.",
+        "keywords": [
+          "schlechte",
+          "gewohnheit",
+          "nikotin",
+          "zigarette",
+          "vape",
+          "sucht",
+          "entwöhnung",
+          "nichtraucher",
+          "handy",
+          "bildschirm",
+          "weniger"
+        ],
+        "promoText": "Gewöhne dir jede Gewohnheit in deinem Tempo ab. Jede Wartezeit wächst ein wenig, ein Ausrutscher wirft dich nie zurück auf null.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Neu\n• Ein ruhigeres Design, gemacht für iPhone und iPad\n• Dein Weg: Sieh, wohin dich jedes Tempo führt, mit einem wahrscheinlichen Bereich aus deinen eigenen Daten\n• Ausrutscher und Notfallzugang kosten dich keinen Fortschritt mehr. Werden frühe Nutzungen zum Muster, nimmt Spacer die Wartezeit auf eine zurück, die du halten kannst\n• Widgets und Live-Aktivitäten\n• Meilensteine und ein sanftes Willkommen nach einer Pause",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/de/01_HomeScreen.png",
+            "listing/de/05_SlipScreen.png",
+            "listing/de/07_SettingsScreen.png",
+            "listing/de/03_HistoryInsights.png",
+            "listing/de/06_Doomscrolling.png",
+            "listing/de/04_HistoryInsights_Triggers.png",
+            "listing/de/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "en-US": {
+        "title": "Spacer: Quit Bad Habits Slowly",
+        "subtitle": "Less vaping, smoking, drinking",
+        "description": "Spacer helps you ease off a habit at a pace you can live with, instead of quitting cold turkey.\n\nEvery time you wait out the gap, the next one grows a little. Vaping, smoking, drinking, doomscrolling or gaming: Spacer stretches the habit out slowly until it fades.\n\nHow it helps\n• A gentle schedule that tells you when you're free to use next, with the wait growing a little each time.\n• A daily time allowance for screens or gaming that gets a little smaller each morning.\n• Help when an urge hits early: breathing, grounding, a five-minute wait and your own reason, in your own voice.\n• No streaks and no shame. A slip never sends you back to zero.\n• Insights into when it happens, what sets it off, what helps, and where your pace takes you.\n• Widgets and Live Activities, so your next opening is a glance away.\n\nPrivate by design\nNo account. Your habits and notes stay on your device. Spacer sends only anonymous usage statistics, never what you write.\n\nSpacer Pro\nMore habits, reports for a clinician or a partner, the medium widget, Live Activities, your own pace and sleep window, and data export.\n\nA note on safety\nStopping alcohol, benzodiazepines, barbiturates or opioids suddenly can be dangerous. For these, Spacer keeps you on the gentlest pace and turns off emergency access. It supports medical care and doesn't replace it.",
+        "keywords": [
+          "nnn",
+          "nut",
+          "november",
+          "pmo",
+          "goon",
+          "dopamine",
+          "vape",
+          "nicotine",
+          "alcohol",
+          "screen",
+          "time",
+          "doomscroll",
+          "gaming",
+          "addiction"
+        ],
+        "promoText": "Ease off any habit at your own pace. Each wait grows a little, a slip never resets you, and your notes stay on your device.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "What's new\n• A calmer design, made for iPhone and iPad\n• Your path: see where each pace takes you, with a likely range from your own data\n• Slips and emergency access no longer cost you progress. If early uses become a pattern, Spacer eases the wait back to one you can hold\n• Widgets and Live Activities\n• Milestones, and a gentle welcome back after time away",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/en/01_HomeScreen.png",
+            "listing/en/05_SlipScreen.png",
+            "listing/en/07_SettingsScreen.png",
+            "listing/en/03_HistoryInsights.png",
+            "listing/en/06_Doomscrolling.png",
+            "listing/en/04_HistoryInsights_Triggers.png",
+            "listing/en/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "es-ES": {
+        "title": "Spacer: Deja malos hábitos",
+        "subtitle": "Menos vapeo, tabaco y alcohol",
+        "description": "Spacer te ayuda a dejar un hábito a un ritmo que puedas sostener, en lugar de cortar de golpe.\n\nCada vez que esperas el intervalo, el siguiente crece un poco. Vapear, fumar, beber, pasar horas con el móvil o jugar: Spacer estira el hábito poco a poco hasta que se apaga.\n\nCómo te ayuda\n• Un plan suave que te dice cuándo puedes volver a usar, con una espera que crece un poco cada vez.\n• Un tiempo diario para pantallas o videojuegos que se reduce un poco cada mañana.\n• Ayuda cuando el impulso llega antes de tiempo: respiración, anclaje, una espera de cinco minutos y tu propio motivo, con tu propia voz.\n• Sin rachas y sin culpa. Un desliz nunca te devuelve a cero.\n• Datos sobre cuándo ocurre, qué lo provoca, qué te ayuda y adónde te lleva tu ritmo.\n• Widgets y Actividades en vivo, para ver tu próxima apertura de un vistazo.\n\nPrivado desde el principio\nSin cuenta. Tus hábitos y notas se quedan en tu dispositivo. Spacer solo envía estadísticas de uso anónimas, nunca lo que escribes.\n\nSpacer Pro\nMás hábitos, informes para un profesional o una persona de confianza, el widget mediano, Actividades en vivo, tu propio ritmo y horario de sueño, y exportación de datos.\n\nUna nota de seguridad\nDejar de golpe el alcohol, las benzodiacepinas, los barbitúricos o los opioides puede ser peligroso. En estos casos, Spacer te mantiene en el ritmo más suave y desactiva el acceso de emergencia. Acompaña la atención médica, no la sustituye.",
+        "keywords": [
+          "fumar",
+          "vapear",
+          "cigarro",
+          "nicotina",
+          "adicción",
+          "poco",
+          "gradual",
+          "pantalla",
+          "móvil",
+          "videojuegos",
+          "reducir",
+          "sobrio",
+          "ansia"
+        ],
+        "promoText": "Deja cualquier hábito a tu ritmo. Cada espera crece un poco, un desliz nunca te devuelve a cero y tus notas se quedan en tu dispositivo.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Novedades\n• Un diseño más sereno, pensado para iPhone y iPad\n• Tu camino: mira adónde te lleva cada ritmo, con un rango probable según tus propios datos\n• Los deslices y el acceso de emergencia ya no te quitan progreso. Si los usos anticipados se vuelven un patrón, Spacer suaviza la espera hasta una que puedas sostener\n• Widgets y Actividades en vivo\n• Hitos y una bienvenida tranquila después de un tiempo fuera",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/es/01_HomeScreen.png",
+            "listing/es/05_SlipScreen.png",
+            "listing/es/07_SettingsScreen.png",
+            "listing/es/03_HistoryInsights.png",
+            "listing/es/06_Doomscrolling.png",
+            "listing/es/04_HistoryInsights_Triggers.png",
+            "listing/es/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "fi": {
+        "title": "Spacer: Lopeta tavat hitaasti",
+        "subtitle": "Vähemmän vapea ja tupakkaa",
+        "description": "Spacer auttaa sinua päästämään irti tavasta tahdissa, jonka jaksat pitää, sen sijaan että lopettaisit kerralla.\n\nAina kun odotat tauon loppuun, seuraava pitenee hieman. Vapettaminen, tupakointi, juominen, loputon selaaminen tai pelaaminen: Spacer venyttää tapaa hitaasti, kunnes se hiipuu.\n\nNäin se auttaa\n• Lempeä aikataulu, joka kertoo, milloin saat taas, ja odotus kasvaa joka kerta vähän.\n• Päivittäinen aika ruuduille tai peleille, joka lyhenee hieman joka aamu.\n• Apua, kun himo iskee liian aikaisin: hengitys, maadoitus, viiden minuutin odotus ja oma syysi, omalla äänelläsi.\n• Ei putkia eikä häpeää. Lipsahdus ei koskaan vie sinua takaisin nollaan.\n• Tietoa siitä, milloin se tapahtuu, mikä sen laukaisee, mikä auttaa ja mihin tahtisi vie.\n• Widgetit ja Live Activities, joten seuraava avautuminen on yhden vilkaisun päässä.\n\nYksityinen alusta asti\nEi tiliä. Tapasi ja muistiinpanosi pysyvät laitteellasi. Spacer lähettää vain nimettömiä käyttötilastoja, ei koskaan sitä, mitä kirjoitat.\n\nSpacer Pro\nLisää tapoja, raportit hoitajalle tai luotetulle ihmiselle, keskikokoinen widget, Live Activities, oma tahti ja uniaika sekä tietojen vienti.\n\nTurvallisuudesta\nAlkoholin, bentsodiatsepiinien, barbituraattien tai opioidien äkillinen lopettaminen voi olla vaarallista. Niissä Spacer pitää sinut lempeimmässä tahdissa ja poistaa hätäpääsyn käytöstä. Se tukee hoitoa eikä korvaa sitä.",
+        "keywords": [
+          "huonot",
+          "nikotiini",
+          "savuke",
+          "alkoholi",
+          "riippuvuus",
+          "ruutuaika",
+          "puhelin",
+          "pelaaminen",
+          "vähentää",
+          "raitis",
+          "himo",
+          "nnn"
+        ],
+        "promoText": "Päästä irti mistä tahansa tavasta omaan tahtiisi. Jokainen odotus kasvaa vähän, eikä lipsahdus koskaan vie sinua takaisin nollaan.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Uutta\n• Rauhallisempi ulkoasu iPhonelle ja iPadille\n• Polkusi: näe, mihin kukin tahti vie, ja todennäköinen vaihteluväli omista tiedoistasi\n• Lipsahdukset ja hätäpääsy eivät enää vie edistystä. Jos aikaisista käytöistä tulee kuvio, Spacer palauttaa odotuksen sellaiseksi, jonka jaksat pitää\n• Widgetit ja Live Activities\n• Virstanpylväät ja lempeä tervetulotoivotus tauon jälkeen",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/fi/01_HomeScreen.png",
+            "listing/fi/05_SlipScreen.png",
+            "listing/fi/07_SettingsScreen.png",
+            "listing/fi/03_HistoryInsights.png",
+            "listing/fi/06_Doomscrolling.png",
+            "listing/fi/04_HistoryInsights_Triggers.png",
+            "listing/fi/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "fr-FR": {
+        "title": "Spacer: Arrêter en douceur",
+        "subtitle": "Moins de vape, tabac et alcool",
+        "description": "Spacer vous aide à vous défaire d'une habitude à un rythme tenable, plutôt que d'arrêter du jour au lendemain.\n\nChaque fois que vous tenez l'intervalle, le suivant s'allonge un peu. Vapoter, fumer, boire, scroller sans fin ou jouer : Spacer étire l'habitude doucement jusqu'à ce qu'elle s'efface.\n\nCe qu'il vous apporte\n• Un programme en douceur qui vous dit quand vous pouvez reprendre, avec une attente qui grandit un peu à chaque fois.\n• Un temps quotidien pour les écrans ou le jeu, un peu plus court chaque matin.\n• De l'aide quand l'envie arrive trop tôt : respiration, ancrage, une attente de cinq minutes et votre propre raison, avec votre propre voix.\n• Pas de séries, pas de culpabilité. Un écart ne vous ramène jamais à zéro.\n• Des repères sur le moment où cela arrive, ce qui le déclenche, ce qui vous aide et où votre rythme vous mène.\n• Des widgets et des Activités en direct, pour voir votre prochaine ouverture d'un coup d'œil.\n\nPrivé par conception\nAucun compte. Vos habitudes et vos notes restent sur votre appareil. Spacer n'envoie que des statistiques d'utilisation anonymes, jamais ce que vous écrivez.\n\nSpacer Pro\nPlus d'habitudes, des rapports pour un soignant ou un proche, le widget moyen, les Activités en direct, votre propre rythme et vos horaires de sommeil, et l'export des données.\n\nUn mot sur la sécurité\nArrêter brutalement l'alcool, les benzodiazépines, les barbituriques ou les opioïdes peut être dangereux. Pour ceux-ci, Spacer vous garde au rythme le plus doux et désactive l'accès d'urgence. Il accompagne un suivi médical, il ne le remplace pas.",
+        "keywords": [
+          "fumer",
+          "vapoter",
+          "cigarette",
+          "nicotine",
+          "sevrage",
+          "habitude",
+          "mauvaise",
+          "écran",
+          "addiction",
+          "réduire",
+          "sobre",
+          "jeu",
+          "envie"
+        ],
+        "promoText": "Défaites-vous de n'importe quelle habitude à votre rythme. Chaque attente grandit un peu, un écart ne vous ramène jamais à zéro.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Nouveautés\n• Un design plus apaisé, pensé pour l'iPhone et l'iPad\n• Votre trajectoire : voyez où vous mène chaque rythme, avec une fourchette probable tirée de vos propres données\n• Les écarts et l'accès d'urgence ne vous coûtent plus de progrès. Si les prises anticipées se répètent, Spacer assouplit l'attente pour qu'elle reste tenable\n• Widgets et Activités en direct\n• Des étapes franchies, et un accueil en douceur après une pause",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/fr/01_HomeScreen.png",
+            "listing/fr/05_SlipScreen.png",
+            "listing/fr/07_SettingsScreen.png",
+            "listing/fr/03_HistoryInsights.png",
+            "listing/fr/06_Doomscrolling.png",
+            "listing/fr/04_HistoryInsights_Triggers.png",
+            "listing/fr/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "hi": {
+        "title": "Spacer: बुरी आदतें धीरे छोड़ें",
+        "subtitle": "कम वेप, सिगरेट और शराब",
+        "description": "Spacer आपको एक झटके में छोड़ने के बजाय, ऐसी रफ़्तार से आदत छोड़ने में मदद करता है जिसे आप निभा सकें।\n\nहर बार जब आप अंतराल पूरा इंतज़ार करते हैं, अगला थोड़ा लंबा हो जाता है। वेप, सिगरेट, शराब, बिना रुके स्क्रॉल करना या गेमिंग: Spacer आदत को धीरे-धीरे खींचता है, जब तक वह फीकी न पड़ जाए।\n\nयह कैसे मदद करता है\n• एक नरम योजना जो बताती है कि आप फिर कब कर सकते हैं, और हर बार इंतज़ार थोड़ा बढ़ता है।\n• स्क्रीन या गेम के लिए रोज़ का समय, जो हर सुबह थोड़ा कम होता है।\n• जब तलब जल्दी आए तब मदद: साँस, ग्राउंडिंग, पाँच मिनट का इंतज़ार और आपकी अपनी वजह, आपकी अपनी आवाज़ में।\n• न स्ट्रीक, न शर्म। एक चूक आपको कभी शून्य पर नहीं लौटाती।\n• यह समझ कि ऐसा कब होता है, किससे शुरू होता है, क्या मदद करता है और आपकी रफ़्तार आपको कहाँ ले जाती है।\n• विजेट और लाइव गतिविधियाँ, ताकि अगली बार कब खुलेगा यह एक नज़र में दिखे।\n\nशुरू से निजी\nकोई खाता नहीं। आपकी आदतें और नोट्स आपके डिवाइस पर रहते हैं। Spacer सिर्फ़ गुमनाम उपयोग आँकड़े भेजता है, आपका लिखा कभी नहीं।\n\nSpacer Pro\nज़्यादा आदतें, डॉक्टर या भरोसेमंद व्यक्ति के लिए रिपोर्ट, मीडियम विजेट, लाइव गतिविधियाँ, अपनी रफ़्तार और सोने का समय, और डेटा एक्सपोर्ट।\n\nसुरक्षा के बारे में\nशराब, बेंज़ोडायज़ेपाइन, बार्बिट्यूरेट या ओपिओइड अचानक बंद करना खतरनाक हो सकता है। इनके लिए Spacer आपको सबसे नरम रफ़्तार पर रखता है और आपातकालीन पहुँच बंद कर देता है। यह इलाज में साथ देता है, उसकी जगह नहीं लेता।",
+        "keywords": [
+          "धूम्रपान",
+          "निकोटीन",
+          "नशा",
+          "लत",
+          "स्क्रीन",
+          "फोन",
+          "गेमिंग",
+          "छोड़ना",
+          "तलब",
+          "आदत",
+          "धीरे-धीरे",
+          "तंबाकू",
+          "nnn"
+        ],
+        "promoText": "किसी भी आदत को अपनी रफ़्तार से छोड़ें। हर इंतज़ार थोड़ा बढ़ता है, और एक चूक आपको कभी शून्य पर नहीं लौटाती।",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "नया क्या है\n• iPhone और iPad के लिए ज़्यादा शांत डिज़ाइन\n• आपका रास्ता: देखें कि हर रफ़्तार आपको कहाँ ले जाती है, आपके अपने डेटा से संभावित दायरे के साथ\n• चूक और आपातकालीन पहुँच अब आपकी प्रगति नहीं छीनते। अगर जल्दी इस्तेमाल पैटर्न बन जाए, तो Spacer इंतज़ार को ऐसा कर देता है जिसे आप निभा सकें\n• विजेट और लाइव गतिविधियाँ\n• पड़ाव, और कुछ समय दूर रहने के बाद एक शांत स्वागत",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/hi/01_HomeScreen.png",
+            "listing/hi/05_SlipScreen.png",
+            "listing/hi/07_SettingsScreen.png",
+            "listing/hi/03_HistoryInsights.png",
+            "listing/hi/06_Doomscrolling.png",
+            "listing/hi/04_HistoryInsights_Triggers.png",
+            "listing/hi/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "id": {
+        "title": "Spacer: Berhenti Pelan-pelan",
+        "subtitle": "Kurangi vape, rokok, alkohol",
+        "description": "Spacer membantu Anda meninggalkan kebiasaan dengan ritme yang sanggup Anda jalani, bukan berhenti mendadak.\n\nSetiap kali Anda menunggu jeda sampai selesai, jeda berikutnya bertambah sedikit. Vape, rokok, minum, scrolling tanpa henti, atau game: Spacer meregangkan kebiasaan pelan-pelan sampai memudar.\n\nCara membantu\n• Rencana lembut yang memberi tahu kapan Anda boleh lagi, dengan penantian yang bertambah sedikit setiap kali.\n• Waktu harian untuk layar atau game yang sedikit berkurang setiap pagi.\n• Bantuan saat keinginan datang terlalu awal: napas, grounding, menunggu lima menit, dan alasan Anda sendiri, dengan suara Anda sendiri.\n• Tanpa streak dan tanpa rasa malu. Tergelincir tidak pernah membawa Anda kembali ke nol.\n• Wawasan tentang kapan itu terjadi, apa pemicunya, apa yang membantu, dan ke mana ritme Anda membawa.\n• Widget dan Aktivitas Langsung, sehingga pembukaan berikutnya selalu sekilas pandang.\n\nPrivat sejak awal\nTanpa akun. Kebiasaan dan catatan Anda tetap di perangkat Anda. Spacer hanya mengirim statistik penggunaan anonim, tidak pernah apa yang Anda tulis.\n\nSpacer Pro\nLebih banyak kebiasaan, laporan untuk tenaga kesehatan atau orang yang Anda percaya, widget sedang, Aktivitas Langsung, ritme dan jam tidur sendiri, serta ekspor data.\n\nCatatan keamanan\nBerhenti mendadak dari alkohol, benzodiazepin, barbiturat, atau opioid bisa berbahaya. Untuk ini, Spacer menjaga Anda di ritme paling lembut dan mematikan akses darurat. Spacer mendukung perawatan medis, bukan menggantikannya.",
+        "keywords": [
+          "kebiasaan",
+          "buruk",
+          "merokok",
+          "nikotin",
+          "kecanduan",
+          "layar",
+          "hp",
+          "game",
+          "keinginan",
+          "bertahap",
+          "minum",
+          "sadar",
+          "nnn"
+        ],
+        "promoText": "Tinggalkan kebiasaan apa pun dengan ritme Anda sendiri. Setiap jeda bertambah sedikit, dan tergelincir tidak pernah membawa Anda kembali ke nol.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Yang baru\n• Desain yang lebih tenang, dibuat untuk iPhone dan iPad\n• Jalur Anda: lihat ke mana setiap ritme membawa Anda, dengan rentang yang mungkin dari data Anda sendiri\n• Tergelincir dan akses darurat tidak lagi mengurangi kemajuan. Jika penggunaan lebih awal menjadi pola, Spacer melonggarkan penantian ke yang bisa Anda jalani\n• Widget dan Aktivitas Langsung\n• Pencapaian, dan sambutan yang tenang setelah lama tidak membuka",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/id/01_HomeScreen.png",
+            "listing/id/05_SlipScreen.png",
+            "listing/id/07_SettingsScreen.png",
+            "listing/id/03_HistoryInsights.png",
+            "listing/id/06_Doomscrolling.png",
+            "listing/id/04_HistoryInsights_Triggers.png",
+            "listing/id/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "it": {
+        "title": "Spacer: Smettere con calma",
+        "subtitle": "Meno svapo, fumo e alcol",
+        "description": "Spacer ti aiuta a lasciare un'abitudine a un ritmo sostenibile, invece di smettere da un giorno all'altro.\n\nOgni volta che rispetti l'intervallo, il successivo cresce un po'. Svapare, fumare, bere, scorrere senza fine o giocare: Spacer allunga l'abitudine piano piano finché non svanisce.\n\nCome ti aiuta\n• Un programma gentile che ti dice quando puoi di nuovo, con un'attesa che cresce un po' ogni volta.\n• Un tempo giornaliero per schermi o giochi che si riduce un po' ogni mattina.\n• Aiuto quando la voglia arriva troppo presto: respirazione, radicamento, un'attesa di cinque minuti e il tuo motivo, con la tua voce.\n• Niente serie e niente sensi di colpa. Uno sgarro non ti riporta mai a zero.\n• Approfondimenti su quando succede, cosa lo scatena, cosa ti aiuta e dove ti porta il tuo ritmo.\n• Widget e Attività Live, per vedere la prossima apertura con uno sguardo.\n\nPrivato per scelta\nNessun account. Le tue abitudini e le tue note restano sul tuo dispositivo. Spacer invia solo statistiche d'uso anonime, mai ciò che scrivi.\n\nSpacer Pro\nPiù abitudini, report per un medico o una persona di fiducia, il widget medio, le Attività Live, il tuo ritmo e la tua finestra di sonno, ed esportazione dei dati.\n\nUna nota sulla sicurezza\nSmettere all'improvviso alcol, benzodiazepine, barbiturici o oppioidi può essere pericoloso. In questi casi Spacer ti tiene al ritmo più dolce e disattiva l'accesso di emergenza. Affianca le cure mediche, non le sostituisce.",
+        "keywords": [
+          "fumare",
+          "svapare",
+          "sigaretta",
+          "nicotina",
+          "abitudini",
+          "cattive",
+          "dipendenza",
+          "schermo",
+          "telefono",
+          "ridurre",
+          "sobrio",
+          "gioco"
+        ],
+        "promoText": "Lascia andare qualsiasi abitudine al tuo ritmo. Ogni attesa cresce un po', uno sgarro non ti riporta mai a zero.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Novità\n• Un design più sereno, pensato per iPhone e iPad\n• Il tuo percorso: guarda dove ti porta ogni ritmo, con un intervallo probabile basato sui tuoi dati\n• Gli sgarri e l'accesso di emergenza non ti costano più progressi. Se gli usi anticipati diventano un'abitudine, Spacer allenta l'attesa a una che puoi reggere\n• Widget e Attività Live\n• Traguardi e un bentornato gentile dopo una pausa",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/it/01_HomeScreen.png",
+            "listing/it/05_SlipScreen.png",
+            "listing/it/07_SettingsScreen.png",
+            "listing/it/03_HistoryInsights.png",
+            "listing/it/06_Doomscrolling.png",
+            "listing/it/04_HistoryInsights_Triggers.png",
+            "listing/it/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "ja": {
+        "title": "Spacer: 悪い習慣をゆっくりやめる",
+        "subtitle": "タバコ、ベイプ、お酒を減らす",
+        "description": "Spacer は、いきなりやめるのではなく、続けられるペースで習慣を手放すためのアプリです。\n\n間隔を待ち切るたびに、次の間隔が少しだけ延びます。ベイプ、タバコ、お酒、終わらないスクロール、ゲーム。Spacer は習慣をゆっくり引き延ばし、薄れていくまで寄り添います。\n\nできること\n• 次に使えるタイミングを教えてくれるやさしいスケジュール。待つ時間は毎回少しずつ延びます。\n• スマホやゲームの1日の時間。毎朝少しずつ短くなります。\n• 欲求が早く来たときのサポート。呼吸、グラウンディング、5分間の待機、そして自分の声で残した自分の理由。\n• 連続記録もなく、責めることもありません。スリップしてもゼロには戻りません。\n• いつ起きるのか、何がきっかけか、何が効くのか、今のペースでどこへ向かうのかがわかります。\n• ウィジェットとライブアクティビティで、次に開く時間がひと目でわかります。\n\nプライバシーを最初から\nアカウントは不要です。習慣やメモはデバイスに残ります。Spacer が送るのは匿名の利用統計だけで、あなたが書いた内容は送りません。\n\nSpacer Pro\n習慣の追加、医療者や信頼できる人へのレポート、ミディアムサイズのウィジェット、ライブアクティビティ、自分だけのペースと睡眠時間、データの書き出し。\n\n安全について\nアルコール、ベンゾジアゼピン、バルビツール酸系、オピオイドを急にやめると危険な場合があります。これらについては、Spacer はいちばんゆるやかなペースに固定し、緊急アクセスをオフにします。医療を支えるもので、置き換えるものではありません。",
+        "keywords": [
+          "禁煙",
+          "減煙",
+          "節酒",
+          "禁酒",
+          "ニコチン",
+          "電子タバコ",
+          "依存症",
+          "スマホ",
+          "ゲーム",
+          "やめたい",
+          "渇望",
+          "少しずつ",
+          "飲酒",
+          "nnn"
+        ],
+        "promoText": "どんな習慣も、自分のペースで手放せます。待つ時間は少しずつ延び、スリップしてもゼロに戻ることはありません。",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "新機能\n• iPhone と iPad のための、より落ち着いたデザイン\n• あなたの道のり:各ペースでどこへ向かうかを、自分のデータからの見込み範囲とともに表示\n• スリップや緊急アクセスで進み具合が失われなくなりました。早めの使用がパターンになると、続けられる待ち時間に Spacer がゆるめます\n• ウィジェットとライブアクティビティ\n• 節目の記録と、しばらく離れたあとのやさしいおかえり",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/ja/01_HomeScreen.png",
+            "listing/ja/05_SlipScreen.png",
+            "listing/ja/07_SettingsScreen.png",
+            "listing/ja/03_HistoryInsights.png",
+            "listing/ja/06_Doomscrolling.png",
+            "listing/ja/04_HistoryInsights_Triggers.png",
+            "listing/ja/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "ko": {
+        "title": "Spacer: 나쁜 습관 천천히 끊기",
+        "subtitle": "담배, 전자담배, 술 줄이기",
+        "description": "Spacer는 한 번에 끊는 대신, 버틸 수 있는 속도로 습관을 놓도록 도와줘요.\n\n간격을 끝까지 기다릴 때마다 다음 간격이 조금 길어져요. 전자담배, 담배, 술, 끝없는 스크롤, 게임까지. Spacer는 습관을 천천히 늘려서 희미해지게 해요.\n\n이렇게 도와줘요\n• 언제 다시 해도 되는지 알려 주는 부드러운 계획. 기다림은 매번 조금씩 늘어나요.\n• 화면이나 게임을 위한 하루 시간. 매일 아침 조금씩 줄어요.\n• 갈망이 일찍 찾아올 때의 도움: 호흡, 그라운딩, 5분 기다리기, 그리고 내 목소리로 남긴 나만의 이유.\n• 연속 기록도, 부끄러움도 없어요. 실수해도 절대 0으로 돌아가지 않아요.\n• 언제 일어나는지, 무엇이 계기인지, 무엇이 도움이 되는지, 지금 속도로 어디에 닿는지 알 수 있어요.\n• 위젯과 실시간 현황으로 다음에 열리는 시간을 한눈에 볼 수 있어요.\n\n처음부터 프라이빗하게\n계정이 필요 없어요. 습관과 메모는 기기에 남아요. Spacer는 익명 사용 통계만 보내고, 내가 쓴 내용은 절대 보내지 않아요.\n\nSpacer Pro\n더 많은 습관, 의료진이나 믿을 수 있는 사람을 위한 리포트, 중간 크기 위젯, 실시간 현황, 나만의 속도와 수면 시간, 데이터 내보내기.\n\n안전에 관해\n술, 벤조디아제핀, 바르비투르산염, 오피오이드를 갑자기 끊으면 위험할 수 있어요. 이런 경우 Spacer는 가장 완만한 속도로 유지하고 긴급 접근을 꺼요. 의료를 돕는 도구이며 대신하지 않아요.",
+        "keywords": [
+          "금연",
+          "절주",
+          "금주",
+          "니코틴",
+          "베이프",
+          "중독",
+          "스마트폰",
+          "게임",
+          "도파민",
+          "갈망",
+          "조금씩",
+          "음주",
+          "흡연",
+          "nnn"
+        ],
+        "promoText": "어떤 습관이든 내 속도대로 놓아 보세요. 기다림은 조금씩 늘고, 실수해도 절대 0으로 돌아가지 않아요.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "새로운 기능\n• iPhone과 iPad를 위한 더 차분한 디자인\n• 나의 길: 각 속도가 어디로 데려가는지, 내 데이터로 본 예상 범위와 함께 확인\n• 실수와 긴급 접근으로 더 이상 진행이 깎이지 않아요. 이른 사용이 반복되면 Spacer가 버틸 수 있는 대기로 완화해요\n• 위젯과 실시간 현황\n• 이정표, 그리고 한동안 쉬었다 돌아올 때의 따뜻한 인사",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/ko/01_HomeScreen.png",
+            "listing/ko/05_SlipScreen.png",
+            "listing/ko/07_SettingsScreen.png",
+            "listing/ko/03_HistoryInsights.png",
+            "listing/ko/06_Doomscrolling.png",
+            "listing/ko/04_HistoryInsights_Triggers.png",
+            "listing/ko/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "ms": {
+        "title": "Spacer: Berhenti Perlahan",
+        "subtitle": "Kurang vape, rokok, alkohol",
+        "description": "Spacer membantu anda meninggalkan tabiat pada rentak yang mampu anda kekalkan, bukannya berhenti secara mengejut.\n\nSetiap kali anda menunggu jeda hingga habis, jeda seterusnya bertambah sedikit. Vape, rokok, minum, menatal tanpa henti atau permainan: Spacer meregangkan tabiat perlahan-lahan sehingga ia pudar.\n\nCara ia membantu\n• Rancangan lembut yang memberitahu bila anda boleh lagi, dengan penantian yang bertambah sedikit setiap kali.\n• Masa harian untuk skrin atau permainan yang berkurang sedikit setiap pagi.\n• Bantuan apabila keinginan datang terlalu awal: pernafasan, grounding, menunggu lima minit dan sebab anda sendiri, dengan suara anda sendiri.\n• Tiada streak dan tiada rasa malu. Tergelincir tidak pernah membawa anda kembali ke kosong.\n• Gambaran tentang bila ia berlaku, apa pencetusnya, apa yang membantu dan ke mana rentak anda membawa.\n• Widget dan Aktiviti Langsung, supaya pembukaan seterusnya sentiasa sekali pandang.\n\nPeribadi sejak awal\nTiada akaun. Tabiat dan nota anda kekal di peranti anda. Spacer hanya menghantar statistik penggunaan tanpa nama, tidak pernah apa yang anda tulis.\n\nSpacer Pro\nLebih banyak tabiat, laporan untuk pegawai perubatan atau orang yang anda percaya, widget sederhana, Aktiviti Langsung, rentak dan waktu tidur sendiri, serta eksport data.\n\nNota keselamatan\nBerhenti mengejut daripada alkohol, benzodiazepin, barbiturat atau opioid boleh membahayakan. Untuk ini, Spacer mengekalkan anda pada rentak paling lembut dan mematikan akses kecemasan. Ia menyokong rawatan perubatan, bukan menggantikannya.",
+        "keywords": [
+          "tabiat",
+          "buruk",
+          "merokok",
+          "nikotin",
+          "ketagihan",
+          "skrin",
+          "telefon",
+          "permainan",
+          "kurangkan",
+          "keinginan",
+          "beransur",
+          "minum"
+        ],
+        "promoText": "Tinggalkan apa jua tabiat mengikut rentak anda. Setiap penantian bertambah sedikit, dan tergelincir tidak pernah membawa anda kembali ke kosong.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Apa yang baharu\n• Reka bentuk yang lebih tenang, untuk iPhone dan iPad\n• Laluan anda: lihat ke mana setiap rentak membawa anda, dengan julat yang mungkin daripada data anda sendiri\n• Tergelincir dan akses kecemasan tidak lagi mengurangkan kemajuan. Jika penggunaan awal menjadi corak, Spacer melonggarkan penantian kepada yang mampu anda kekalkan\n• Widget dan Aktiviti Langsung\n• Pencapaian, dan sambutan yang tenang selepas lama tidak membuka",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/ms/01_HomeScreen.png",
+            "listing/ms/05_SlipScreen.png",
+            "listing/ms/07_SettingsScreen.png",
+            "listing/ms/03_HistoryInsights.png",
+            "listing/ms/06_Doomscrolling.png",
+            "listing/ms/04_HistoryInsights_Triggers.png",
+            "listing/ms/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "nl-NL": {
+        "title": "Spacer: Langzaam stoppen",
+        "subtitle": "Minder vapen, roken, drinken",
+        "description": "Spacer helpt je een gewoonte af te bouwen in een tempo dat je volhoudt, in plaats van in één keer te stoppen.\n\nElke keer dat je de tussenpoos uitwacht, wordt de volgende een beetje langer. Vapen, roken, drinken, eindeloos scrollen of gamen: Spacer rekt de gewoonte langzaam op tot hij verdwijnt.\n\nZo helpt het\n• Een zacht schema dat zegt wanneer je weer mag, met een wachttijd die elke keer een beetje groeit.\n• Een dagelijkse tijd voor schermen of games die elke ochtend iets kleiner wordt.\n• Hulp als de trek te vroeg komt: ademhaling, grounding, vijf minuten wachten en je eigen reden, met je eigen stem.\n• Geen reeksen en geen schaamte. Een uitglijder zet je nooit terug op nul.\n• Inzicht in wanneer het gebeurt, wat het oproept, wat helpt en waar je tempo je brengt.\n• Widgets en Live-activiteiten, zodat je volgende opening altijd in één oogopslag zichtbaar is.\n\nPrivé vanaf het begin\nGeen account. Je gewoontes en notities blijven op je apparaat. Spacer stuurt alleen anonieme gebruiksstatistieken, nooit wat je schrijft.\n\nSpacer Pro\nMeer gewoontes, rapporten voor een behandelaar of een vertrouwd persoon, de middelgrote widget, Live-activiteiten, je eigen tempo en slaaptijden, en gegevens exporteren.\n\nEen woord over veiligheid\nPlotseling stoppen met alcohol, benzodiazepinen, barbituraten of opioïden kan gevaarlijk zijn. Daarvoor houdt Spacer je op het zachtste tempo en zet het de noodtoegang uit. Het ondersteunt medische zorg en vervangt die niet.",
+        "keywords": [
+          "slechte",
+          "gewoontes",
+          "nicotine",
+          "sigaret",
+          "alcohol",
+          "verslaving",
+          "scherm",
+          "telefoon",
+          "gamen",
+          "afbouwen",
+          "minderen",
+          "nnn"
+        ],
+        "promoText": "Bouw elke gewoonte af in je eigen tempo. Elke wachttijd groeit een beetje en een uitglijder zet je nooit terug op nul.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Nieuw\n• Een rustiger ontwerp, gemaakt voor iPhone en iPad\n• Je pad: zie waar elk tempo je brengt, met een waarschijnlijk bereik op basis van je eigen gegevens\n• Uitglijders en noodtoegang kosten je geen vooruitgang meer. Als vroeg gebruik een patroon wordt, zet Spacer de wachttijd terug naar een die je kunt volhouden\n• Widgets en Live-activiteiten\n• Mijlpalen en een rustig welkom na een tijdje weg",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/nl/01_HomeScreen.png",
+            "listing/nl/05_SlipScreen.png",
+            "listing/nl/07_SettingsScreen.png",
+            "listing/nl/03_HistoryInsights.png",
+            "listing/nl/06_Doomscrolling.png",
+            "listing/nl/04_HistoryInsights_Triggers.png",
+            "listing/nl/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "pl": {
+        "title": "Spacer: Rzuć nałogi powoli",
+        "subtitle": "Mniej e-papierosów i alkoholu",
+        "description": "Spacer pomaga odstawić nawyk w tempie, które da się utrzymać, zamiast rzucać z dnia na dzień.\n\nZa każdym razem, gdy odczekasz przerwę, następna jest trochę dłuższa. E-papierosy, palenie, picie, niekończące się scrollowanie czy granie: Spacer powoli rozciąga nawyk, aż zgaśnie.\n\nJak pomaga\n• Łagodny plan, który mówi, kiedy znów możesz, z czekaniem, które za każdym razem trochę rośnie.\n• Dzienny czas na ekrany lub gry, który każdego ranka trochę się zmniejsza.\n• Pomoc, gdy głód przychodzi za wcześnie: oddech, uziemienie, pięć minut czekania i twój własny powód, twoim własnym głosem.\n• Bez serii i bez wstydu. Potknięcie nigdy nie cofa cię do zera.\n• Wgląd w to, kiedy to się dzieje, co to wywołuje, co pomaga i dokąd prowadzi cię twoje tempo.\n• Widżety i Aktywności na żywo, by następne otwarcie było zawsze na wyciągnięcie wzroku.\n\nPrywatny od podstaw\nBez konta. Twoje nawyki i notatki zostają na urządzeniu. Spacer wysyła tylko anonimowe statystyki użycia, nigdy tego, co piszesz.\n\nSpacer Pro\nWięcej nawyków, raporty dla specjalisty lub zaufanej osoby, średni widżet, Aktywności na żywo, własne tempo i pora snu oraz eksport danych.\n\nO bezpieczeństwie\nNagłe odstawienie alkoholu, benzodiazepin, barbituranów lub opioidów może być niebezpieczne. W takich przypadkach Spacer trzyma cię w najłagodniejszym tempie i wyłącza dostęp awaryjny. Wspiera opiekę medyczną, ale jej nie zastępuje.",
+        "keywords": [
+          "palenie",
+          "vape",
+          "nikotyna",
+          "papierosy",
+          "uzależnienie",
+          "ekran",
+          "telefon",
+          "gry",
+          "ograniczyć",
+          "trzeźwość",
+          "nawyki",
+          "złe",
+          "głód"
+        ],
+        "promoText": "Odstaw każdy nawyk we własnym tempie. Każde czekanie trochę się wydłuża, a potknięcie nigdy nie cofa cię do zera.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Nowości\n• Spokojniejszy wygląd, stworzony dla iPhone'a i iPada\n• Twoja droga: zobacz, dokąd prowadzi każde tempo, z prawdopodobnym zakresem z twoich własnych danych\n• Potknięcia i dostęp awaryjny nie kosztują już postępów. Jeśli wcześniejsze użycia staną się wzorcem, Spacer łagodzi czekanie do takiego, które dasz radę utrzymać\n• Widżety i Aktywności na żywo\n• Kamienie milowe i spokojne powitanie po przerwie",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/pl/01_HomeScreen.png",
+            "listing/pl/05_SlipScreen.png",
+            "listing/pl/07_SettingsScreen.png",
+            "listing/pl/03_HistoryInsights.png",
+            "listing/pl/06_Doomscrolling.png",
+            "listing/pl/04_HistoryInsights_Triggers.png",
+            "listing/pl/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "pt-BR": {
+        "title": "Spacer: Largue maus hábitos",
+        "subtitle": "Menos vape, cigarro e álcool",
+        "description": "O Spacer ajuda você a largar um hábito num ritmo possível, em vez de parar de uma vez.\n\nCada vez que você espera o intervalo, o próximo cresce um pouco. Vape, cigarro, bebida, rolar a tela sem parar ou jogos: o Spacer estica o hábito aos poucos até ele perder força.\n\nComo ajuda\n• Um plano suave que diz quando você pode usar de novo, com uma espera que cresce um pouco a cada vez.\n• Um tempo diário para telas ou jogos que diminui um pouco toda manhã.\n• Ajuda quando a vontade chega cedo: respiração, ancoragem, uma espera de cinco minutos e o seu próprio motivo, na sua própria voz.\n• Sem sequências e sem culpa. Um deslize nunca te leva de volta ao zero.\n• Informações sobre quando acontece, o que desencadeia, o que ajuda e aonde o seu ritmo te leva.\n• Widgets e Atividades ao Vivo, para ver a próxima abertura num relance.\n\nPrivado por natureza\nSem conta. Seus hábitos e anotações ficam no seu dispositivo. O Spacer envia só estatísticas de uso anônimas, nunca o que você escreve.\n\nSpacer Pro\nMais hábitos, relatórios para um profissional ou uma pessoa de confiança, o widget médio, Atividades ao Vivo, seu próprio ritmo e horário de sono, e exportação de dados.\n\nUma nota sobre segurança\nParar de repente álcool, benzodiazepínicos, barbitúricos ou opioides pode ser perigoso. Nesses casos, o Spacer mantém você no ritmo mais suave e desativa o acesso de emergência. Ele apoia o cuidado médico, não o substitui.",
+        "keywords": [
+          "fumar",
+          "parar",
+          "vapear",
+          "nicotina",
+          "vício",
+          "dependência",
+          "celular",
+          "tela",
+          "jogo",
+          "reduzir",
+          "sóbrio",
+          "poucos",
+          "ansiedade",
+          "nnn"
+        ],
+        "promoText": "Largue qualquer hábito no seu ritmo. Cada espera cresce um pouco, um deslize nunca te leva de volta ao zero.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Novidades\n• Um design mais calmo, feito para iPhone e iPad\n• Seu caminho: veja aonde cada ritmo te leva, com uma faixa provável a partir dos seus próprios dados\n• Deslizes e acesso de emergência não custam mais progresso. Se os usos antecipados virarem um padrão, o Spacer suaviza a espera para uma que você consegue manter\n• Widgets e Atividades ao Vivo\n• Marcos e uma boa recepção depois de um tempo fora",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/pt/01_HomeScreen.png",
+            "listing/pt/05_SlipScreen.png",
+            "listing/pt/07_SettingsScreen.png",
+            "listing/pt/03_HistoryInsights.png",
+            "listing/pt/06_Doomscrolling.png",
+            "listing/pt/04_HistoryInsights_Triggers.png",
+            "listing/pt/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "ru": {
+        "title": "Spacer: Бросай привычки плавно",
+        "subtitle": "Меньше курить, пить, вейпить",
+        "description": "Spacer помогает отказаться от привычки в посильном темпе, вместо того чтобы бросать резко.\n\nКаждый раз, когда вы выдерживаете паузу, следующая становится чуть длиннее. Вейп, курение, алкоголь, бесконечная лента или игры: Spacer медленно растягивает привычку, пока она не угаснет.\n\nКак это помогает\n• Мягкий план, который подсказывает, когда снова можно, и ожидание каждый раз немного растёт.\n• Дневное время для экранов или игр, которое каждое утро становится чуть меньше.\n• Помощь, когда тяга приходит раньше времени: дыхание, заземление, пять минут ожидания и ваша собственная причина, вашим голосом.\n• Никаких серий и никакого стыда. Срыв никогда не отбрасывает вас к нулю.\n• Понимание того, когда это происходит, что это запускает, что помогает и куда ведёт ваш темп.\n• Виджеты и Live Activities, чтобы следующее открытие было видно с одного взгляда.\n\nПриватность по умолчанию\nБез аккаунта. Ваши привычки и заметки остаются на устройстве. Spacer отправляет только анонимную статистику использования и никогда то, что вы пишете.\n\nSpacer Pro\nБольше привычек, отчёты для врача или близкого человека, средний виджет, Live Activities, свой темп и время сна, а также экспорт данных.\n\nО безопасности\nРезкий отказ от алкоголя, бензодиазепинов, барбитуратов или опиоидов может быть опасен. Для них Spacer держит вас на самом мягком темпе и отключает экстренный доступ. Он дополняет медицинскую помощь, но не заменяет её.",
+        "keywords": [
+          "бросить",
+          "курение",
+          "вейп",
+          "никотин",
+          "сигареты",
+          "алкоголь",
+          "зависимость",
+          "экран",
+          "телефон",
+          "игры",
+          "снизить",
+          "трезвость",
+          "тяга"
+        ],
+        "promoText": "Отпускайте любую привычку в своём темпе. Каждое ожидание немного растёт, а срыв никогда не отбрасывает вас к нулю.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Что нового\n• Более спокойный дизайн для iPhone и iPad\n• Ваш путь: смотрите, куда ведёт каждый темп, с вероятным диапазоном по вашим данным\n• Срывы и экстренный доступ больше не отнимают прогресс. Если ранние использования становятся закономерностью, Spacer смягчает ожидание до такого, которое вы выдержите\n• Виджеты и Live Activities\n• Рубежи и спокойное приветствие после перерыва",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/ru/01_HomeScreen.png",
+            "listing/ru/05_SlipScreen.png",
+            "listing/ru/07_SettingsScreen.png",
+            "listing/ru/03_HistoryInsights.png",
+            "listing/ru/06_Doomscrolling.png",
+            "listing/ru/04_HistoryInsights_Triggers.png",
+            "listing/ru/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "sv": {
+        "title": "Spacer: Sluta långsamt",
+        "subtitle": "Mindre vejp, rökning, alkohol",
+        "description": "Spacer hjälper dig att släppa en vana i en takt du klarar av, i stället för att sluta tvärt.\n\nVarje gång du väntar ut pausen blir nästa lite längre. Vejp, rökning, alkohol, oändligt scrollande eller gaming: Spacer drar ut vanan långsamt tills den bleknar.\n\nSå hjälper den\n• Ett milt schema som visar när du får igen, med en väntan som växer lite varje gång.\n• En daglig tid för skärmar eller spel som blir lite kortare varje morgon.\n• Hjälp när suget kommer för tidigt: andning, jordning, fem minuters väntan och ditt eget skäl, med din egen röst.\n• Inga streaks och ingen skam. Ett snedsteg skickar dig aldrig tillbaka till noll.\n• Insikter om när det händer, vad som utlöser det, vad som hjälper och vart din takt leder.\n• Widgetar och Live Activities, så att din nästa öppning alltid syns med en blick.\n\nPrivat från grunden\nInget konto. Dina vanor och anteckningar stannar på din enhet. Spacer skickar bara anonym användningsstatistik, aldrig det du skriver.\n\nSpacer Pro\nFler vanor, rapporter till vården eller någon du litar på, den mellanstora widgeten, Live Activities, din egen takt och sömntid samt dataexport.\n\nOm säkerhet\nAtt sluta tvärt med alkohol, bensodiazepiner, barbiturater eller opioider kan vara farligt. För dessa håller Spacer dig på den mildaste takten och stänger av nödåtkomsten. Den stöttar vården och ersätter den inte.",
+        "keywords": [
+          "dåliga",
+          "vanor",
+          "nikotin",
+          "cigarett",
+          "röka",
+          "snus",
+          "beroende",
+          "skärm",
+          "mobil",
+          "gaming",
+          "trappa",
+          "ner",
+          "minska",
+          "nykter",
+          "sug",
+          "nnn"
+        ],
+        "promoText": "Släpp vilken vana som helst i din egen takt. Varje väntan växer lite, och ett snedsteg skickar dig aldrig tillbaka till noll.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Nyheter\n• En lugnare design, gjord för iPhone och iPad\n• Din väg: se vart varje takt leder, med ett troligt spann från din egen data\n• Snedsteg och nödåtkomst kostar dig inte längre framsteg. Blir tidig användning ett mönster, tar Spacer tillbaka väntan till en du klarar att hålla\n• Widgetar och Live Activities\n• Milstolpar och ett varmt välkommen tillbaka efter ett uppehåll",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/sv/01_HomeScreen.png",
+            "listing/sv/05_SlipScreen.png",
+            "listing/sv/07_SettingsScreen.png",
+            "listing/sv/03_HistoryInsights.png",
+            "listing/sv/06_Doomscrolling.png",
+            "listing/sv/04_HistoryInsights_Triggers.png",
+            "listing/sv/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "tr": {
+        "title": "Spacer: Yavaşça Bırak",
+        "subtitle": "Daha az vape, sigara, alkol",
+        "description": "Spacer, bir alışkanlığı bir anda bırakmak yerine sürdürebileceğiniz bir hızda bırakmanıza yardımcı olur.\n\nAradaki süreyi her beklediğinizde bir sonraki biraz uzar. Vape, sigara, içki, bitmeyen kaydırma ya da oyun: Spacer alışkanlığı yavaş yavaş uzatır, ta ki sönene kadar.\n\nNasıl yardımcı olur\n• Ne zaman yeniden kullanabileceğinizi söyleyen, beklemenin her seferinde biraz arttığı yumuşak bir plan.\n• Ekran ya da oyun için her sabah biraz kısalan günlük bir süre.\n• İstek erken geldiğinde yardım: nefes, topraklanma, beş dakikalık bekleme ve kendi sesinizle kendi nedeniniz.\n• Seri yok, utanç yok. Bir kayma sizi asla sıfıra döndürmez.\n• Ne zaman olduğu, neyin tetiklediği, neyin yardımcı olduğu ve hızınızın sizi nereye götürdüğüne dair içgörüler.\n• Widget'lar ve Canlı Etkinlikler, böylece bir sonraki açılış bir bakış uzaklıkta.\n\nBaştan gizlilik\nHesap yok. Alışkanlıklarınız ve notlarınız cihazınızda kalır. Spacer yalnızca anonim kullanım istatistikleri gönderir, yazdıklarınızı asla göndermez.\n\nSpacer Pro\nDaha fazla alışkanlık, bir uzman ya da güvendiğiniz biri için raporlar, orta boy widget, Canlı Etkinlikler, kendi hızınız ve uyku saatleriniz, ve veri dışa aktarma.\n\nGüvenlik hakkında\nAlkol, benzodiazepinler, barbitüratlar veya opioidleri aniden bırakmak tehlikeli olabilir. Bunlar için Spacer sizi en yumuşak hızda tutar ve acil erişimi kapatır. Tıbbi bakımı destekler, onun yerini tutmaz.",
+        "keywords": [
+          "kötü",
+          "alışkanlık",
+          "nikotin",
+          "bırakma",
+          "bağımlılık",
+          "ekran",
+          "telefon",
+          "oyun",
+          "azaltmak",
+          "ayık",
+          "istek",
+          "tütün",
+          "içki",
+          "nnn"
+        ],
+        "promoText": "Her alışkanlığı kendi hızınızda bırakın. Her bekleme biraz uzar ve bir kayma sizi asla sıfıra döndürmez.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Yenilikler\n• iPhone ve iPad için daha sakin bir tasarım\n• Yolunuz: her hızın sizi nereye götürdüğünü, kendi verilerinize dayanan olası bir aralıkla görün\n• Kaymalar ve acil erişim artık ilerlemenize mal olmuyor. Erken kullanımlar bir örüntüye dönüşürse Spacer beklemeyi sürdürebileceğiniz bir süreye çeker\n• Widget'lar ve Canlı Etkinlikler\n• Kilometre taşları ve bir aradan sonra sakin bir hoş geldin",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/tr/01_HomeScreen.png",
+            "listing/tr/05_SlipScreen.png",
+            "listing/tr/07_SettingsScreen.png",
+            "listing/tr/03_HistoryInsights.png",
+            "listing/tr/06_Doomscrolling.png",
+            "listing/tr/04_HistoryInsights_Triggers.png",
+            "listing/tr/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "zh-Hans": {
+        "title": "Spacer: 慢慢戒掉坏习惯",
+        "subtitle": "少抽烟、少电子烟、少喝酒",
+        "description": "Spacer 帮你以能坚持的节奏放下一个习惯，而不是一下子戒掉。\n\n每次你等满间隔，下一次就会长一点。电子烟、香烟、喝酒、刷个不停或玩游戏：Spacer 把习惯慢慢拉长，直到它淡去。\n\n它如何帮你\n• 温和的计划，告诉你什么时候可以再用，每次等待都会长一点。\n• 屏幕或游戏的每日时长，每天早上减少一点。\n• 渴望来得太早时的帮助：呼吸、着地练习、等五分钟，以及用你自己的声音录下的理由。\n• 没有连续打卡，也没有羞愧。一次失误绝不会让你回到零。\n• 了解它何时发生、因何而起、什么有帮助，以及你的节奏会带你走到哪里。\n• 小组件和实时活动，下一次开放时间一眼可见。\n\n从一开始就注重隐私\n无需账户。你的习惯和笔记都留在设备上。Spacer 只发送匿名使用统计，绝不发送你写的内容。\n\nSpacer Pro\n更多习惯、给医生或信任之人的报告、中号小组件、实时活动、自定义节奏和睡眠时间，以及数据导出。\n\n关于安全\n突然停用酒精、苯二氮䓬类、巴比妥类或阿片类药物可能有危险。对于这些，Spacer 会保持最温和的节奏并关闭紧急通道。它配合医疗，而不是取代医疗。",
+        "keywords": [
+          "戒烟",
+          "戒酒",
+          "电子烟",
+          "尼古丁",
+          "上瘾",
+          "手机",
+          "屏幕时间",
+          "游戏",
+          "减少",
+          "自律",
+          "渴望",
+          "循序渐进",
+          "饮酒",
+          "nnn"
+        ],
+        "promoText": "按自己的节奏放下任何习惯。每次等待都会长一点，一次失误也绝不会让你回到零。",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "新功能\n• 为 iPhone 和 iPad 打造的更平静的设计\n• 你的路径：看看每种节奏会带你到哪里，并附上根据你自己的数据得出的可能范围\n• 失误和紧急通道不再让你失去进度。如果提前使用成为规律，Spacer 会把等待放宽到你能坚持的程度\n• 小组件和实时活动\n• 里程碑，以及离开一段时间后温和的欢迎回来",
+        "screenshots": {
+          "APP_IPHONE_67": [
+            "listing/zh/01_HomeScreen.png",
+            "listing/zh/05_SlipScreen.png",
+            "listing/zh/07_SettingsScreen.png",
+            "listing/zh/03_HistoryInsights.png",
+            "listing/zh/06_Doomscrolling.png",
+            "listing/zh/04_HistoryInsights_Triggers.png",
+            "listing/zh/02_DetailScreen.png"
+          ]
+        },
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "en-CA": {
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "releaseNotes": "What's new\n• A calmer design, made for iPhone and iPad\n• Your path: see where each pace takes you, with a likely range from your own data\n• Slips and emergency access no longer cost you progress. If early uses become a pattern, Spacer eases the wait back to one you can hold\n• Widgets and Live Activities\n• Milestones, and a gentle welcome back after time away",
+        "title": "Spacer: Quit Bad Habits Slowly",
+        "subtitle": "Less vaping, smoking, drinking",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "description": "Spacer helps you ease off a habit at a pace you can live with, instead of quitting cold turkey.\n\nEvery time you wait out the gap, the next one grows a little. Vaping, smoking, drinking, doomscrolling or gaming: Spacer stretches the habit out slowly until it fades.\n\nHow it helps\n• A gentle schedule that tells you when you're free to use next, with the wait growing a little each time.\n• A daily time allowance for screens or gaming that gets a little smaller each morning.\n• Help when an urge hits early: breathing, grounding, a five-minute wait and your own reason, in your own voice.\n• No streaks and no shame. A slip never sends you back to zero.\n• Insights into when it happens, what sets it off, what helps, and where your pace takes you.\n• Widgets and Live Activities, so your next opening is a glance away.\n\nPrivate by design\nNo account. Your habits and notes stay on your device. Spacer sends only anonymous usage statistics, never what you write.\n\nSpacer Pro\nMore habits, reports for a clinician or a partner, the medium widget, Live Activities, your own pace and sleep window, and data export.\n\nA note on safety\nStopping alcohol, benzodiazepines, barbiturates or opioids suddenly can be dangerous. For these, Spacer keeps you on the gentlest pace and turns off emergency access. It supports medical care and doesn't replace it.",
+        "keywords": [
+          "nnn",
+          "nut",
+          "november",
+          "pmo",
+          "goon",
+          "dopamine",
+          "dry",
+          "feb",
+          "vape",
+          "nicotine",
+          "cigarette",
+          "alcohol",
+          "sober",
+          "screen",
+          "gaming",
+          "taper"
+        ],
+        "promoText": "Ease off any habit at your own pace. Each wait grows a little, a slip never resets you, and your notes stay on your device."
+      },
+      "en-GB": {
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "releaseNotes": "What's new\n• A calmer design, made for iPhone and iPad\n• Your path: see where each pace takes you, with a likely range from your own data\n• Slips and emergency access no longer cost you progress. If early uses become a pattern, Spacer eases the wait back to one you can hold\n• Widgets and Live Activities\n• Milestones, and a gentle welcome back after time away",
+        "title": "Spacer: Quit Bad Habits Slowly",
+        "subtitle": "Less vaping, smoking, drinking",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "description": "Spacer helps you ease off a habit at a pace you can live with, instead of quitting cold turkey.\n\nEvery time you wait out the gap, the next one grows a little. Vaping, smoking, drinking, doomscrolling or gaming: Spacer stretches the habit out slowly until it fades.\n\nHow it helps\n• A gentle schedule that tells you when you're free to use next, with the wait growing a little each time.\n• A daily time allowance for screens or gaming that gets a little smaller each morning.\n• Help when an urge hits early: breathing, grounding, a five-minute wait and your own reason, in your own voice.\n• No streaks and no shame. A slip never sends you back to zero.\n• Insights into when it happens, what sets it off, what helps, and where your pace takes you.\n• Widgets and Live Activities, so your next opening is a glance away.\n\nPrivate by design\nNo account. Your habits and notes stay on your device. Spacer sends only anonymous usage statistics, never what you write.\n\nSpacer Pro\nMore habits, reports for a clinician or a partner, the medium widget, Live Activities, your own pace and sleep window, and data export.\n\nA note on safety\nStopping alcohol, benzodiazepines, barbiturates or opioids suddenly can be dangerous. For these, Spacer keeps you on the gentlest pace and turns off emergency access. It supports medical care and doesn't replace it.",
+        "keywords": [
+          "nnn",
+          "nut",
+          "november",
+          "pmo",
+          "goon",
+          "dopamine",
+          "dry",
+          "january",
+          "vape",
+          "nicotine",
+          "cigarette",
+          "alcohol",
+          "sober",
+          "screen",
+          "gaming"
+        ],
+        "promoText": "Ease off any habit at your own pace. Each wait grows a little, a slip never resets you, and your notes stay on your device."
+      },
+      "es-MX": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Deja malos hábitos",
+        "subtitle": "Menos vapeo, tabaco y alcohol",
+        "keywords": [
+          "fumar",
+          "vapear",
+          "vape",
+          "cigarros",
+          "nicotina",
+          "adicción",
+          "celular",
+          "pantalla",
+          "videojuegos",
+          "reducir",
+          "sobrio",
+          "antojo",
+          "nnn"
+        ],
+        "promoText": "Deja cualquier hábito a tu ritmo. Cada espera crece un poco, un desliz nunca te regresa a cero y tus notas se quedan en tu dispositivo.",
+        "description": "Spacer te ayuda a dejar un hábito a un ritmo que puedas sostener, en lugar de dejarlo de golpe.\n\nCada vez que esperas el intervalo, el siguiente crece un poco. Vapear, fumar, tomar, pasar horas en el celular o jugar: Spacer estira el hábito poco a poco hasta que se apaga.\n\nCómo te ayuda\n• Un plan suave que te dice cuándo puedes volver a usar, con una espera que crece un poco cada vez.\n• Un tiempo diario para pantallas o videojuegos que se reduce un poco cada mañana.\n• Ayuda cuando el antojo llega antes de tiempo: respiración, anclaje, una espera de cinco minutos y tu propio motivo, con tu propia voz.\n• Sin rachas y sin culpa. Un desliz nunca te regresa a cero.\n• Datos sobre cuándo pasa, qué lo provoca, qué te ayuda y a dónde te lleva tu ritmo.\n• Widgets y Actividades en vivo, para ver tu próxima apertura de un vistazo.\n\nPrivado desde el principio\nSin cuenta. Tus hábitos y notas se quedan en tu dispositivo. Spacer solo envía estadísticas de uso anónimas, nunca lo que escribes.\n\nSpacer Pro\nMás hábitos, reportes para un profesional o una persona de confianza, el widget mediano, Actividades en vivo, tu propio ritmo y horario de sueño, y exportación de datos.\n\nUna nota de seguridad\nDejar de golpe el alcohol, las benzodiacepinas, los barbitúricos o los opioides puede ser peligroso. En estos casos, Spacer te mantiene en el ritmo más suave y desactiva el acceso de emergencia. Acompaña la atención médica, no la reemplaza.",
+        "releaseNotes": "Novedades\n• Un diseño más sereno, pensado para iPhone y iPad\n• Tu camino: mira a dónde te lleva cada ritmo, con un rango probable según tus propios datos\n• Los deslices y el acceso de emergencia ya no te quitan progreso. Si los usos anticipados se vuelven un patrón, Spacer suaviza la espera hasta una que puedas sostener\n• Widgets y Actividades en vivo\n• Logros y una bienvenida tranquila después de un tiempo fuera"
+      },
+      "no": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Slutt med vaner rolig",
+        "subtitle": "Mindre vape, røyk og alkohol",
+        "keywords": [
+          "dårlige",
+          "nikotin",
+          "sigarett",
+          "snus",
+          "avhengighet",
+          "skjerm",
+          "mobil",
+          "gaming",
+          "trappe",
+          "ned",
+          "redusere",
+          "edru",
+          "sug",
+          "nnn"
+        ],
+        "promoText": "Slipp hvilken som helst vane i ditt eget tempo. Hver ventetid vokser litt, og en glipp sender deg aldri tilbake til null.",
+        "description": "Spacer hjelper deg med å slippe en vane i et tempo du klarer å holde, i stedet for å slutte brått.\n\nHver gang du venter ut pausen, blir den neste litt lengre. Vape, røyk, drikking, endeløs scrolling eller gaming: Spacer strekker vanen ut sakte til den blekner.\n\nSlik hjelper den\n• En mild plan som viser når du kan igjen, med en ventetid som vokser litt hver gang.\n• En daglig tid for skjermer eller spill som blir litt kortere hver morgen.\n• Hjelp når suget kommer for tidlig: pust, jording, fem minutters venting og din egen grunn, med din egen stemme.\n• Ingen streaks og ingen skam. En glipp sender deg aldri tilbake til null.\n• Innsikt i når det skjer, hva som utløser det, hva som hjelper og hvor tempoet ditt tar deg.\n• Widgeter og Live Activities, så den neste åpningen alltid er et blikk unna.\n\nPrivat fra grunnen av\nIngen konto. Vanene og notatene dine blir på enheten din. Spacer sender bare anonym bruksstatistikk, aldri det du skriver.\n\nSpacer Pro\nFlere vaner, rapporter til en behandler eller noen du stoler på, den mellomstore widgeten, Live Activities, ditt eget tempo og søvnvindu, og dataeksport.\n\nOm sikkerhet\nÅ slutte brått med alkohol, benzodiazepiner, barbiturater eller opioider kan være farlig. For disse holder Spacer deg på det mildeste tempoet og slår av nødtilgangen. Den støtter medisinsk oppfølging og erstatter den ikke.",
+        "releaseNotes": "Nytt\n• Et roligere design, laget for iPhone og iPad\n• Veien din: se hvor hvert tempo tar deg, med et sannsynlig spenn fra dine egne data\n• Glipper og nødtilgang koster deg ikke lenger fremgang. Blir tidlig bruk et mønster, setter Spacer ventetiden tilbake til en du klarer å holde\n• Widgeter og Live Activities\n• Milepæler og en rolig velkomst etter en pause"
+      },
+      "cs": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Zbav se zlozvyků",
+        "subtitle": "Méně vapování, kouření, pití",
+        "keywords": [
+          "přestat",
+          "kouřit",
+          "nikotin",
+          "cigarety",
+          "alkohol",
+          "závislost",
+          "obrazovka",
+          "mobil",
+          "hry",
+          "omezit",
+          "postupně",
+          "střízlivost"
+        ],
+        "promoText": "Zbav se jakéhokoli zlozvyku vlastním tempem. Každé čekání se trochu prodlouží a zaváhání tě nikdy nevrátí na nulu.",
+        "description": "Spacer ti pomůže zbavit se zlozvyku tempem, které vydržíš, místo abys přestal ze dne na den.\n\nPokaždé, když vydržíš pauzu, je ta další o něco delší. Vapování, kouření, pití, nekonečné scrollování nebo hraní: Spacer zlozvyk pomalu natahuje, dokud nevybledne.\n\nJak pomáhá\n• Jemný plán, který ti řekne, kdy můžeš znovu, a čekání se pokaždé trochu prodlouží.\n• Denní čas na obrazovky nebo hry, který se každé ráno trochu zkrátí.\n• Pomoc, když chuť přijde moc brzy: dýchání, uzemnění, pět minut čekání a tvůj vlastní důvod, tvým vlastním hlasem.\n• Žádné série a žádná hanba. Zaváhání tě nikdy nevrátí na nulu.\n• Přehled o tom, kdy se to děje, co to spouští, co pomáhá a kam tě tvé tempo vede.\n• Widgety a Živé aktivity, takže další otevření máš vždy na jeden pohled.\n\nSoukromí od základu\nŽádný účet. Tvé zvyky a poznámky zůstávají v zařízení. Spacer posílá jen anonymní statistiky používání, nikdy to, co píšeš.\n\nSpacer Pro\nVíce zlozvyků, zprávy pro lékaře nebo blízkého člověka, střední widget, Živé aktivity, vlastní tempo a čas spánku a export dat.\n\nPoznámka k bezpečnosti\nNáhlé vysazení alkoholu, benzodiazepinů, barbiturátů nebo opioidů může být nebezpečné. U nich tě Spacer drží na nejjemnějším tempu a vypne nouzový přístup. Lékařskou péči podporuje, nenahrazuje ji.",
+        "releaseNotes": "Novinky\n• Klidnější vzhled pro iPhone i iPad\n• Tvoje cesta: podívej se, kam tě které tempo vede, s pravděpodobným rozsahem z tvých vlastních dat\n• Zaváhání a nouzový přístup už tě nestojí pokrok. Pokud se z dřívějších užití stane vzorec, Spacer čekání zmírní na takové, které vydržíš\n• Widgety a Živé aktivity\n• Milníky a vlídné přivítání po přestávce"
+      },
+      "hu": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Rossz szokások lassan",
+        "subtitle": "Kevesebb vape, cigi, alkohol",
+        "keywords": [
+          "leszokás",
+          "dohányzás",
+          "nikotin",
+          "cigaretta",
+          "függőség",
+          "képernyő",
+          "telefon",
+          "játék",
+          "csökkentés",
+          "józan",
+          "sóvárgás",
+          "nnn"
+        ],
+        "promoText": "Szokj le bármiről a saját tempódban. Minden várakozás kicsit hosszabb lesz, és egy botlás sosem visz vissza nullára.",
+        "description": "A Spacer segít egy szokásról olyan tempóban leszokni, amit tartani tudsz, ahelyett hogy egyik napról a másikra hagynád abba.\n\nMinden alkalommal, amikor kivárod a szünetet, a következő egy kicsit hosszabb lesz. Vape, dohányzás, ivás, végtelen görgetés vagy játék: a Spacer lassan széthúzza a szokást, amíg el nem halványul.\n\nÍgy segít\n• Szelíd ütemterv, amely megmondja, mikor jöhet a következő, és a várakozás minden alkalommal nő egy kicsit.\n• Napi idő képernyőre vagy játékra, amely minden reggel kicsit rövidebb.\n• Segítség, amikor a sóvárgás túl korán jön: légzés, földelés, öt perc várakozás és a saját okod, a saját hangodon.\n• Nincsenek sorozatok és nincs szégyen. Egy botlás sosem visz vissza nullára.\n• Betekintés abba, mikor történik, mi váltja ki, mi segít, és hová visz a tempód.\n• Widgetek és Élő tevékenységek, így a következő nyitás mindig egy pillantásnyira van.\n\nAlapból privát\nNincs fiók. A szokásaid és jegyzeteid az eszközödön maradnak. A Spacer csak névtelen használati statisztikát küld, soha nem azt, amit írsz.\n\nSpacer Pro\nTöbb szokás, jelentések orvosnak vagy egy bizalmasnak, a közepes widget, Élő tevékenységek, saját tempó és alvási idő, valamint adatexport.\n\nA biztonságról\nAz alkohol, a benzodiazepinek, a barbiturátok vagy az opioidok hirtelen elhagyása veszélyes lehet. Ezeknél a Spacer a legszelídebb tempón tart, és kikapcsolja a vészhozzáférést. Az orvosi ellátást támogatja, nem helyettesíti.",
+        "releaseNotes": "Újdonságok\n• Nyugodtabb megjelenés iPhone-ra és iPadre\n• Az utad: nézd meg, hová visz az egyes tempók, a saját adataidból számolt valószínű sávval\n• A botlások és a vészhozzáférés már nem kerülnek haladásba. Ha a korai használat mintává válik, a Spacer olyanra mérsékli a várakozást, amit tartani tudsz\n• Widgetek és Élő tevékenységek\n• Mérföldkövek és szelíd fogadtatás egy kis szünet után"
+      },
+      "ro": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Renunță treptat",
+        "subtitle": "Mai puțin vape, fumat, alcool",
+        "keywords": [
+          "obiceiuri",
+          "proaste",
+          "nicotină",
+          "țigări",
+          "dependență",
+          "ecran",
+          "telefon",
+          "jocuri",
+          "reducere",
+          "sobru",
+          "poftă",
+          "lăsat",
+          "nnn"
+        ],
+        "promoText": "Renunță la orice obicei în ritmul tău. Fiecare așteptare crește puțin, iar o scăpare nu te aduce niciodată înapoi la zero.",
+        "description": "Spacer te ajută să renunți la un obicei într-un ritm pe care îl poți susține, în loc să te oprești brusc.\n\nDe fiecare dată când aștepți pauza până la capăt, următoarea crește puțin. Vape, fumat, băutură, derulat la nesfârșit sau jocuri: Spacer întinde obiceiul încet, până se stinge.\n\nCum te ajută\n• Un plan blând care îți spune când poți din nou, cu o așteptare care crește puțin de fiecare dată.\n• Un timp zilnic pentru ecrane sau jocuri care scade puțin în fiecare dimineață.\n• Ajutor când pofta vine prea devreme: respirație, ancorare, o așteptare de cinci minute și propriul tău motiv, cu propria ta voce.\n• Fără serii și fără rușine. O scăpare nu te aduce niciodată înapoi la zero.\n• Informații despre când se întâmplă, ce declanșează, ce ajută și unde te duce ritmul tău.\n• Widgeturi și Activități live, ca următoarea deschidere să fie mereu la o privire distanță.\n\nPrivat de la bun început\nFără cont. Obiceiurile și notițele tale rămân pe dispozitiv. Spacer trimite doar statistici de utilizare anonime, niciodată ce scrii.\n\nSpacer Pro\nMai multe obiceiuri, rapoarte pentru un medic sau o persoană de încredere, widgetul mediu, Activități live, propriul ritm și program de somn, plus export de date.\n\nDespre siguranță\nOprirea bruscă a alcoolului, benzodiazepinelor, barbituricelor sau opioidelor poate fi periculoasă. Pentru acestea, Spacer te ține în ritmul cel mai blând și dezactivează accesul de urgență. Sprijină îngrijirea medicală, nu o înlocuiește.",
+        "releaseNotes": "Noutăți\n• Un design mai liniștit, făcut pentru iPhone și iPad\n• Drumul tău: vezi unde te duce fiecare ritm, cu un interval probabil din propriile date\n• Scăpările și accesul de urgență nu te mai costă progres. Dacă utilizările timpurii devin un tipar, Spacer reduce așteptarea la una pe care o poți susține\n• Widgeturi și Activități live\n• Repere și o revenire blândă după o pauză"
+      },
+      "el": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Κόψε κακές συνήθειες",
+        "subtitle": "Λιγότερο άτμισμα, κάπνισμα",
+        "keywords": [
+          "διακοπή",
+          "τσιγάρο",
+          "νικοτίνη",
+          "αλκοόλ",
+          "εθισμός",
+          "οθόνη",
+          "κινητό",
+          "παιχνίδια",
+          "μείωση",
+          "ποτό",
+          "λαχτάρα",
+          "σταδιακά",
+          "nnn"
+        ],
+        "promoText": "Άφησε οποιαδήποτε συνήθεια με τον δικό σου ρυθμό. Κάθε αναμονή μεγαλώνει λίγο και ένα παραστράτημα δεν σε γυρίζει ποτέ στο μηδέν.",
+        "description": "Το Spacer σε βοηθά να αφήσεις μια συνήθεια με ρυθμό που αντέχεις, αντί να την κόψεις μαχαίρι.\n\nΚάθε φορά που περιμένεις το διάλειμμα, το επόμενο μεγαλώνει λίγο. Άτμισμα, κάπνισμα, ποτό, ατελείωτο σκρολάρισμα ή παιχνίδια: το Spacer τεντώνει τη συνήθεια σιγά σιγά μέχρι να σβήσει.\n\nΠώς βοηθά\n• Ένα ήπιο πρόγραμμα που σου λέει πότε μπορείς ξανά, με αναμονή που μεγαλώνει λίγο κάθε φορά.\n• Ένας ημερήσιος χρόνος για οθόνες ή παιχνίδια που μικραίνει λίγο κάθε πρωί.\n• Βοήθεια όταν η λαχτάρα έρχεται νωρίς: αναπνοή, γείωση, πέντε λεπτά αναμονής και ο δικός σου λόγος, με τη δική σου φωνή.\n• Χωρίς σερί και χωρίς ντροπή. Ένα παραστράτημα δεν σε γυρίζει ποτέ στο μηδέν.\n• Πληροφορίες για το πότε συμβαίνει, τι το προκαλεί, τι βοηθά και πού σε πάει ο ρυθμός σου.\n• Widget και Ζωντανές δραστηριότητες, για να βλέπεις το επόμενο άνοιγμα με μια ματιά.\n\nΙδιωτικό από τη βάση του\nΧωρίς λογαριασμό. Οι συνήθειες και οι σημειώσεις σου μένουν στη συσκευή σου. Το Spacer στέλνει μόνο ανώνυμα στατιστικά χρήσης, ποτέ όσα γράφεις.\n\nSpacer Pro\nΠερισσότερες συνήθειες, αναφορές για γιατρό ή άνθρωπο εμπιστοσύνης, το μεσαίο widget, Ζωντανές δραστηριότητες, δικός σου ρυθμός και ώρες ύπνου, και εξαγωγή δεδομένων.\n\nΓια την ασφάλεια\nΗ απότομη διακοπή αλκοόλ, βενζοδιαζεπινών, βαρβιτουρικών ή οπιοειδών μπορεί να είναι επικίνδυνη. Γι' αυτά, το Spacer σε κρατά στον πιο ήπιο ρυθμό και απενεργοποιεί την πρόσβαση έκτακτης ανάγκης. Υποστηρίζει την ιατρική φροντίδα, δεν την αντικαθιστά.",
+        "releaseNotes": "Τι νέο υπάρχει\n• Πιο ήρεμος σχεδιασμός, φτιαγμένος για iPhone και iPad\n• Η πορεία σου: δες πού σε πάει κάθε ρυθμός, με ένα πιθανό εύρος από τα δικά σου δεδομένα\n• Τα παραστρατήματα και η πρόσβαση έκτακτης ανάγκης δεν σου κοστίζουν πια πρόοδο. Αν οι πρόωρες χρήσεις γίνουν μοτίβο, το Spacer χαλαρώνει την αναμονή σε μία που αντέχεις\n• Widget και Ζωντανές δραστηριότητες\n• Ορόσημα και ένα ήρεμο καλωσόρισμα μετά από ένα διάλειμμα"
+      },
+      "uk": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Кидай звички плавно",
+        "subtitle": "Менше курити, пити, вейпити",
+        "keywords": [
+          "кинути",
+          "куріння",
+          "вейп",
+          "нікотин",
+          "сигарети",
+          "алкоголь",
+          "залежність",
+          "екран",
+          "телефон",
+          "ігри",
+          "тверезість",
+          "тяга",
+          "nnn"
+        ],
+        "promoText": "Відпускайте будь-яку звичку у своєму темпі. Кожне очікування трохи зростає, а зрив ніколи не повертає вас до нуля.",
+        "description": "Spacer допомагає позбутися звички в посильному темпі, замість того щоб кидати різко.\n\nЩоразу, коли ви витримуєте паузу, наступна стає трохи довшою. Вейп, куріння, алкоголь, нескінченна стрічка чи ігри: Spacer повільно розтягує звичку, доки вона не згасне.\n\nЯк це допомагає\n• Лагідний план, який підказує, коли знову можна, і очікування щоразу трохи зростає.\n• Денний час для екранів або ігор, який щоранку стає трохи меншим.\n• Допомога, коли тяга приходить зарано: дихання, заземлення, п'ять хвилин очікування і ваша власна причина, вашим власним голосом.\n• Жодних серій і жодного сорому. Зрив ніколи не повертає вас до нуля.\n• Розуміння того, коли це стається, що це викликає, що допомагає і куди веде ваш темп.\n• Віджети й Live Activities, щоб наступне відкриття було видно з одного погляду.\n\nПриватність за замовчуванням\nБез облікового запису. Ваші звички й нотатки залишаються на пристрої. Spacer надсилає лише анонімну статистику використання і ніколи не те, що ви пишете.\n\nSpacer Pro\nБільше звичок, звіти для лікаря чи близької людини, середній віджет, Live Activities, власний темп і час сну, а також експорт даних.\n\nПро безпеку\nРізка відмова від алкоголю, бензодіазепінів, барбітуратів чи опіоїдів може бути небезпечною. Для них Spacer тримає вас на найм'якшому темпі й вимикає екстрений доступ. Він доповнює медичну допомогу, але не замінює її.",
+        "releaseNotes": "Що нового\n• Спокійніший дизайн для iPhone та iPad\n• Ваш шлях: дивіться, куди веде кожен темп, з імовірним діапазоном за вашими даними\n• Зриви й екстрений доступ більше не забирають прогрес. Якщо ранні використання стають закономірністю, Spacer пом'якшує очікування до такого, яке ви витримаєте\n• Віджети й Live Activities\n• Рубежі та спокійне привітання після перерви"
+      },
+      "he": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: לגמול מהרגלים לאט",
+        "subtitle": "פחות וייפ, עישון ואלכוהול",
+        "keywords": [
+          "הפסקת",
+          "סיגריות",
+          "ניקוטין",
+          "התמכרות",
+          "מסך",
+          "טלפון",
+          "משחקים",
+          "הפחתה",
+          "פיכחון",
+          "דחף",
+          "הדרגתי",
+          "שתייה",
+          "nnn"
+        ],
+        "promoText": "שחררו כל הרגל בקצב שלכם. כל המתנה גדלה מעט, ומעידה אף פעם לא מחזירה אתכם לאפס.",
+        "description": "Spacer עוזר לכם לשחרר הרגל בקצב שאפשר לעמוד בו, במקום להפסיק בבת אחת.\n\nבכל פעם שאתם מחכים את ההפסקה עד הסוף, הבאה מתארכת מעט. וייפ, עישון, שתייה, גלילה בלי סוף או משחקים: Spacer מותח את ההרגל לאט עד שהוא דועך.\n\nאיך זה עוזר\n• תוכנית עדינה שאומרת לכם מתי אפשר שוב, עם המתנה שגדלה מעט בכל פעם.\n• זמן יומי למסכים או למשחקים שמתקצר מעט בכל בוקר.\n• עזרה כשהדחף מגיע מוקדם: נשימה, קרקוע, חמש דקות המתנה והסיבה שלכם, בקול שלכם.\n• בלי רצפים ובלי בושה. מעידה אף פעם לא מחזירה אתכם לאפס.\n• תובנות על מתי זה קורה, מה מעורר את זה, מה עוזר ולאן הקצב שלכם מוביל.\n• ווידג'טים ופעילויות בזמן אמת, כך שהפתיחה הבאה תמיד במרחק מבט.\n\nפרטיות מהיסוד\nבלי חשבון. ההרגלים וההערות שלכם נשארים במכשיר. Spacer שולח רק נתוני שימוש אנונימיים, אף פעם לא את מה שאתם כותבים.\n\nSpacer Pro\nיותר הרגלים, דוחות לגורם מטפל או לאדם שאתם סומכים עליו, הווידג'ט הבינוני, פעילויות בזמן אמת, קצב ושעות שינה משלכם, וייצוא נתונים.\n\nהערה על בטיחות\nהפסקה פתאומית של אלכוהול, בנזודיאזפינים, ברביטורטים או אופיואידים עלולה להיות מסוכנת. במקרים אלה Spacer משאיר אתכם בקצב העדין ביותר ומכבה את הגישה בחירום. הוא תומך בטיפול רפואי ואינו מחליף אותו.",
+        "releaseNotes": "מה חדש\n• עיצוב רגוע יותר, ל-iPhone ול-iPad\n• הדרך שלכם: ראו לאן כל קצב מוביל, עם טווח סביר מהנתונים שלכם\n• מעידות וגישה בחירום כבר לא עולות לכם בהתקדמות. אם שימושים מוקדמים הופכים לדפוס, Spacer מרכך את ההמתנה לכזו שאפשר לעמוד בה\n• ווידג'טים ופעילויות בזמן אמת\n• אבני דרך וקבלת פנים שקטה אחרי הפסקה"
+      },
+      "vi": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: Bỏ thói quen xấu dần",
+        "subtitle": "Bớt vape, thuốc lá, rượu bia",
+        "keywords": [
+          "cai",
+          "hút",
+          "nicotine",
+          "nghiện",
+          "điện",
+          "thoại",
+          "màn",
+          "hình",
+          "game",
+          "giảm",
+          "thèm",
+          "tỉnh",
+          "táo",
+          "từng",
+          "bước",
+          "nnn"
+        ],
+        "promoText": "Buông bỏ bất kỳ thói quen nào theo nhịp của bạn. Mỗi lần chờ dài thêm một chút, và một lần lỡ không bao giờ đưa bạn về số không.",
+        "description": "Spacer giúp bạn buông bỏ một thói quen theo nhịp bạn theo được, thay vì bỏ ngay lập tức.\n\nMỗi lần bạn chờ hết khoảng nghỉ, khoảng tiếp theo dài thêm một chút. Vape, thuốc lá, rượu bia, lướt mạng không ngừng hay chơi game: Spacer kéo giãn thói quen từ từ cho đến khi nó phai đi.\n\nCách Spacer giúp bạn\n• Một kế hoạch nhẹ nhàng cho biết khi nào bạn được dùng lại, với thời gian chờ tăng thêm một chút mỗi lần.\n• Thời gian mỗi ngày cho màn hình hoặc game, giảm đi một chút mỗi sáng.\n• Hỗ trợ khi cơn thèm đến quá sớm: hít thở, neo giữ, chờ năm phút và lý do của chính bạn, bằng giọng của chính bạn.\n• Không chuỗi ngày, không xấu hổ. Một lần lỡ không bao giờ đưa bạn về số không.\n• Thông tin về lúc nào nó xảy ra, điều gì gây ra, điều gì giúp ích và nhịp của bạn đưa bạn đến đâu.\n• Tiện ích và Hoạt động trực tiếp, để lần mở tiếp theo luôn chỉ cách một cái liếc mắt.\n\nRiêng tư ngay từ đầu\nKhông cần tài khoản. Thói quen và ghi chú của bạn ở lại trên thiết bị. Spacer chỉ gửi thống kê sử dụng ẩn danh, không bao giờ gửi những gì bạn viết.\n\nSpacer Pro\nThêm thói quen, báo cáo cho bác sĩ hoặc người bạn tin tưởng, tiện ích cỡ vừa, Hoạt động trực tiếp, nhịp và giờ ngủ của riêng bạn, cùng xuất dữ liệu.\n\nLưu ý an toàn\nNgừng đột ngột rượu, benzodiazepine, barbiturat hoặc opioid có thể nguy hiểm. Với những chất này, Spacer giữ bạn ở nhịp nhẹ nhàng nhất và tắt quyền truy cập khẩn cấp. Spacer hỗ trợ việc điều trị y tế chứ không thay thế nó.",
+        "releaseNotes": "Có gì mới\n• Thiết kế điềm tĩnh hơn, dành cho iPhone và iPad\n• Con đường của bạn: xem mỗi nhịp đưa bạn đến đâu, với khoảng dự kiến từ chính dữ liệu của bạn\n• Lần lỡ và quyền truy cập khẩn cấp không còn làm bạn mất tiến độ. Nếu việc dùng sớm trở thành thói quen, Spacer nới thời gian chờ về mức bạn theo được\n• Tiện ích và Hoạt động trực tiếp\n• Cột mốc và lời chào đón nhẹ nhàng sau thời gian vắng mặt"
+      },
+      "th": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: เลิกนิสัยเสียทีละนิด",
+        "subtitle": "ลดบุหรี่ไฟฟ้า บุหรี่ และเหล้า",
+        "keywords": [
+          "เลิกบุหรี่",
+          "เลิกเหล้า",
+          "นิโคติน",
+          "ติด",
+          "มือถือ",
+          "หน้าจอ",
+          "เกม",
+          "ลด",
+          "อยาก",
+          "ค่อยๆ",
+          "สุรา",
+          "พอด",
+          "nnn"
+        ],
+        "promoText": "ค่อยๆ ปล่อยนิสัยใดก็ได้ตามจังหวะของคุณ ทุกการรอนานขึ้นเล็กน้อย และการพลาดไม่เคยพาคุณกลับไปที่ศูนย์",
+        "description": "Spacer ช่วยให้คุณค่อยๆ ปล่อยนิสัยหนึ่งในจังหวะที่คุณทำได้ แทนการหักดิบทันที\n\nทุกครั้งที่คุณรอจนครบช่วงพัก ช่วงถัดไปจะยาวขึ้นเล็กน้อย บุหรี่ไฟฟ้า บุหรี่ เหล้า การเลื่อนหน้าจอไม่หยุด หรือเกม Spacer จะยืดนิสัยออกไปช้าๆ จนมันจางหาย\n\nช่วยคุณอย่างไร\n• แผนที่อ่อนโยนซึ่งบอกว่าคุณใช้ได้อีกเมื่อไร โดยการรอจะนานขึ้นเล็กน้อยทุกครั้ง\n• เวลาต่อวันสำหรับหน้าจอหรือเกม ที่ลดลงเล็กน้อยทุกเช้า\n• ความช่วยเหลือเมื่อความอยากมาเร็ว: การหายใจ การดึงสติกลับมา การรอห้านาที และเหตุผลของคุณเอง ด้วยเสียงของคุณเอง\n• ไม่มีสถิติต่อเนื่อง ไม่มีความละอาย การพลาดไม่เคยพาคุณกลับไปที่ศูนย์\n• ข้อมูลเชิงลึกว่ามันเกิดขึ้นเมื่อไร อะไรเป็นตัวกระตุ้น อะไรช่วยได้ และจังหวะของคุณจะพาไปถึงไหน\n• วิดเจ็ตและกิจกรรมสด ให้เห็นเวลาเปิดครั้งถัดไปได้ในพริบตา\n\nเป็นส่วนตัวตั้งแต่ต้น\nไม่ต้องมีบัญชี นิสัยและบันทึกของคุณอยู่ในอุปกรณ์ของคุณ Spacer ส่งเพียงสถิติการใช้งานแบบไม่ระบุตัวตน ไม่เคยส่งสิ่งที่คุณเขียน\n\nSpacer Pro\nนิสัยเพิ่มเติม รายงานสำหรับแพทย์หรือคนที่คุณไว้ใจ วิดเจ็ตขนาดกลาง กิจกรรมสด จังหวะและเวลานอนของคุณเอง และการส่งออกข้อมูล\n\nเรื่องความปลอดภัย\nการหยุดแอลกอฮอล์ เบนโซไดอะซีปีน บาร์บิทูเรต หรือโอปิออยด์อย่างกะทันหันอาจเป็นอันตราย สำหรับสิ่งเหล่านี้ Spacer จะคงคุณไว้ที่จังหวะที่อ่อนโยนที่สุดและปิดการเข้าถึงฉุกเฉิน Spacer ช่วยเสริมการดูแลทางการแพทย์ ไม่ได้มาแทนที่",
+        "releaseNotes": "มีอะไรใหม่\n• ดีไซน์ที่สงบขึ้น สำหรับ iPhone และ iPad\n• เส้นทางของคุณ: ดูว่าแต่ละจังหวะพาคุณไปถึงไหน พร้อมช่วงที่น่าจะเป็นจากข้อมูลของคุณเอง\n• การพลาดและการเข้าถึงฉุกเฉินไม่ทำให้เสียความคืบหน้าอีกต่อไป หากการใช้ก่อนเวลากลายเป็นรูปแบบ Spacer จะผ่อนการรอให้อยู่ในระดับที่คุณทำได้\n• วิดเจ็ตและกิจกรรมสด\n• หมุดหมาย และการต้อนรับอย่างอ่อนโยนหลังหายไปสักพัก"
+      },
+      "zh-Hant": {
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "title": "Spacer: 慢慢戒掉壞習慣",
+        "subtitle": "少抽菸、少電子菸、少喝酒",
+        "keywords": [
+          "戒菸",
+          "戒酒",
+          "電子菸",
+          "尼古丁",
+          "成癮",
+          "手機",
+          "螢幕時間",
+          "遊戲",
+          "減少",
+          "自律",
+          "渴望",
+          "循序漸進",
+          "飲酒",
+          "nnn"
+        ],
+        "promoText": "按自己的節奏放下任何習慣。每次等待都會長一點，一次失誤也絕不會讓你回到零。",
+        "description": "Spacer 幫你以能堅持的節奏放下一個習慣，而不是一下子戒掉。\n\n每次你等滿間隔，下一次就會長一點。電子菸、香菸、喝酒、滑個不停或玩遊戲：Spacer 把習慣慢慢拉長，直到它淡去。\n\n它如何幫你\n• 溫和的計畫，告訴你什麼時候可以再用，每次等待都會長一點。\n• 螢幕或遊戲的每日時間，每天早上減少一點。\n• 渴望來得太早時的幫助：呼吸、接地練習、等五分鐘，以及用你自己的聲音錄下的理由。\n• 沒有連續紀錄，也沒有羞愧。一次失誤絕不會讓你回到零。\n• 了解它何時發生、因何而起、什麼有幫助，以及你的節奏會帶你走到哪裡。\n• 小工具和即時動態，下一次開放時間一眼可見。\n\n從一開始就重視隱私\n不需要帳號。你的習慣和筆記都留在裝置上。Spacer 只傳送匿名使用統計，絕不傳送你寫的內容。\n\nSpacer Pro\n更多習慣、給醫師或信任之人的報告、中型小工具、即時動態、自訂節奏和睡眠時間，以及資料匯出。\n\n關於安全\n突然停用酒精、苯二氮平類、巴比妥類或鴉片類藥物可能有危險。對於這些，Spacer 會保持最溫和的節奏並關閉緊急通道。它配合醫療，而不是取代醫療。",
+        "releaseNotes": "新功能\n• 為 iPhone 和 iPad 打造的更平靜的設計\n• 你的路徑：看看每種節奏會帶你到哪裡，並附上根據你自己的資料得出的可能範圍\n• 失誤和緊急通道不再讓你失去進度。如果提前使用成為規律，Spacer 會把等待放寬到你能堅持的程度\n• 小工具和即時動態\n• 里程碑，以及離開一段時間後溫和的歡迎回來"
+      },
+      "en-AU": {
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6",
+        "releaseNotes": "What's new\n• A calmer design, made for iPhone and iPad\n• Your path: see where each pace takes you, with a likely range from your own data\n• Slips and emergency access no longer cost you progress. If early uses become a pattern, Spacer eases the wait back to one you can hold\n• Widgets and Live Activities\n• Milestones, and a gentle welcome back after time away",
+        "title": "Spacer: Quit Bad Habits Slowly",
+        "subtitle": "Less vaping, smoking, drinking",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "description": "Spacer helps you ease off a habit at a pace you can live with, instead of quitting cold turkey.\n\nEvery time you wait out the gap, the next one grows a little. Vaping, smoking, drinking, doomscrolling or gaming: Spacer stretches the habit out slowly until it fades.\n\nHow it helps\n• A gentle schedule that tells you when you're free to use next, with the wait growing a little each time.\n• A daily time allowance for screens or gaming that gets a little smaller each morning.\n• Help when an urge hits early: breathing, grounding, a five-minute wait and your own reason, in your own voice.\n• No streaks and no shame. A slip never sends you back to zero.\n• Insights into when it happens, what sets it off, what helps, and where your pace takes you.\n• Widgets and Live Activities, so your next opening is a glance away.\n\nPrivate by design\nNo account. Your habits and notes stay on your device. Spacer sends only anonymous usage statistics, never what you write.\n\nSpacer Pro\nMore habits, reports for a clinician or a partner, the medium widget, Live Activities, your own pace and sleep window, and data export.\n\nA note on safety\nStopping alcohol, benzodiazepines, barbiturates or opioids suddenly can be dangerous. For these, Spacer keeps you on the gentlest pace and turns off emergency access. It supports medical care and doesn't replace it.",
+        "keywords": [
+          "nnn",
+          "nut",
+          "november",
+          "pmo",
+          "corn",
+          "goon",
+          "dopamine",
+          "dry",
+          "july",
+          "vape",
+          "nicotine",
+          "cigarette",
+          "alcohol",
+          "sober",
+          "screen",
+          "gaming"
+        ],
+        "promoText": "Ease off any habit at your own pace. Each wait grows a little, a slip never resets you, and your notes stay on your device."
+      },
+      "fr-CA": {
+        "title": "Spacer: Arrêter en douceur",
+        "subtitle": "Moins de vape, tabac et alcool",
+        "description": "Spacer vous aide à vous défaire d'une habitude à un rythme tenable, plutôt que d'arrêter du jour au lendemain.\n\nChaque fois que vous tenez l'intervalle, le suivant s'allonge un peu. Vapoter, fumer, boire, scroller sans fin ou jouer : Spacer étire l'habitude doucement jusqu'à ce qu'elle s'efface.\n\nCe qu'il vous apporte\n• Un programme en douceur qui vous dit quand vous pouvez reprendre, avec une attente qui grandit un peu à chaque fois.\n• Un temps quotidien pour les écrans ou le jeu, un peu plus court chaque matin.\n• De l'aide quand l'envie arrive trop tôt : respiration, ancrage, une attente de cinq minutes et votre propre raison, avec votre propre voix.\n• Pas de séries, pas de culpabilité. Un écart ne vous ramène jamais à zéro.\n• Des repères sur le moment où cela arrive, ce qui le déclenche, ce qui vous aide et où votre rythme vous mène.\n• Des widgets et des Activités en direct, pour voir votre prochaine ouverture d'un coup d'œil.\n\nPrivé par conception\nAucun compte. Vos habitudes et vos notes restent sur votre appareil. Spacer n'envoie que des statistiques d'utilisation anonymes, jamais ce que vous écrivez.\n\nSpacer Pro\nPlus d'habitudes, des rapports pour un soignant ou un proche, le widget moyen, les Activités en direct, votre propre rythme et vos horaires de sommeil, et l'export des données.\n\nUn mot sur la sécurité\nArrêter brutalement l'alcool, les benzodiazépines, les barbituriques ou les opioïdes peut être dangereux. Pour ceux-ci, Spacer vous garde au rythme le plus doux et désactive l'accès d'urgence. Il accompagne un suivi médical, il ne le remplace pas.",
+        "keywords": [
+          "fumer",
+          "vapoteuse",
+          "vapoter",
+          "cigarette",
+          "nicotine",
+          "sevrage",
+          "cellulaire",
+          "écran",
+          "jeux",
+          "réduire",
+          "sobre",
+          "envie",
+          "nnn"
+        ],
+        "promoText": "Défaites-vous de n'importe quelle habitude à votre rythme. Chaque attente grandit un peu, un écart ne vous ramène jamais à zéro.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Nouveautés\n• Un design plus apaisé, pensé pour l'iPhone et l'iPad\n• Votre trajectoire : voyez où vous mène chaque rythme, avec une fourchette probable tirée de vos propres données\n• Les écarts et l'accès d'urgence ne vous coûtent plus de progrès. Si les prises anticipées se répètent, Spacer assouplit l'attente pour qu'elle reste tenable\n• Widgets et Activités en direct\n• Des étapes franchies, et un accueil en douceur après une pause",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      },
+      "pt-PT": {
+        "title": "Spacer: Largue maus hábitos",
+        "subtitle": "Menos vape, cigarro e álcool",
+        "description": "O Spacer ajuda você a largar um hábito num ritmo possível, em vez de parar de uma vez.\n\nCada vez que você espera o intervalo, o próximo cresce um pouco. Vape, cigarro, bebida, rolar a tela sem parar ou jogos: o Spacer estica o hábito aos poucos até ele perder força.\n\nComo ajuda\n• Um plano suave que diz quando você pode usar de novo, com uma espera que cresce um pouco a cada vez.\n• Um tempo diário para telas ou jogos que diminui um pouco toda manhã.\n• Ajuda quando a vontade chega cedo: respiração, ancoragem, uma espera de cinco minutos e o seu próprio motivo, na sua própria voz.\n• Sem sequências e sem culpa. Um deslize nunca te leva de volta ao zero.\n• Informações sobre quando acontece, o que desencadeia, o que ajuda e aonde o seu ritmo te leva.\n• Widgets e Atividades ao Vivo, para ver a próxima abertura num relance.\n\nPrivado por natureza\nSem conta. Seus hábitos e anotações ficam no seu dispositivo. O Spacer envia só estatísticas de uso anônimas, nunca o que você escreve.\n\nSpacer Pro\nMais hábitos, relatórios para um profissional ou uma pessoa de confiança, o widget médio, Atividades ao Vivo, seu próprio ritmo e horário de sono, e exportação de dados.\n\nUma nota sobre segurança\nParar de repente álcool, benzodiazepínicos, barbitúricos ou opioides pode ser perigoso. Nesses casos, o Spacer mantém você no ritmo mais suave e desativa o acesso de emergência. Ele apoia o cuidado médico, não o substitui.",
+        "keywords": [
+          "fumar",
+          "vapear",
+          "cigarro",
+          "tabaco",
+          "nicotina",
+          "vício",
+          "dependência",
+          "telemóvel",
+          "ecrã",
+          "jogos",
+          "reduzir",
+          "sóbrio",
+          "nnn"
+        ],
+        "promoText": "Largue qualquer hábito no seu ritmo. Cada espera cresce um pouco, um deslize nunca te leva de volta ao zero.",
+        "privacyPolicyUrl": "https://gist.githubusercontent.com/Portgras/ec2be9bccf0ed579843585ece12c78e7/raw/privacy_policy.md",
+        "releaseNotes": "Novidades\n• Um design mais calmo, feito para iPhone e iPad\n• Seu caminho: veja aonde cada ritmo te leva, com uma faixa provável a partir dos seus próprios dados\n• Deslizes e acesso de emergência não custam mais progresso. Se os usos antecipados virarem um padrão, o Spacer suaviza a espera para uma que você consegue manter\n• Widgets e Atividades ao Vivo\n• Marcos e uma boa recepção depois de um tempo fora",
+        "supportUrl": "https://forms.gle/hiNqbLanHEikiCbz6"
+      }
+    },
+    "version": "1.1.0",
+    "copyright": "©2026 Spacer"
+  }
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<title>Spacer screenshot</title>
+<!--
+  One App Store screenshot, in the Quiet design: the paper ground, a Fraunces
+  Light headline in ink, a quieter line beneath, and the real screen in a thin
+  flat outline. No bezels, gradients, chips or capitals.
+
+  Query: ?page=main&shot=ring&lang=en&device=iphone&theme=light&src=../raw/x.png
+         &preview=1 scales it down to fit the window.
+  The pipeline screenshots this page at the device's exact pixel size.
+-->
+<script src="shots.js"></script>
+<style>
+  @font-face { font-family: 'Fraunces'; font-weight: 300; src: url('fonts/Fraunces_300Light.ttf'); }
+  :root { --paper: #F6F3EE; --raised: #FFFFFF; --line: #E4DFD6; --sunk: #EAE6DE; --ink: #1D1C1A; --ink2: #66625B; --ink3: #A19C93; }
+  .dark { --paper: #121211; --raised: #1C1B19; --line: #2C2B28; --sunk: #262522; --ink: #F2EFE9; --ink2: #A29E96; --ink3: #6E6A63; }
+  html, body { margin: 0; background: #DDD8CF; }
+  #shot { position: relative; overflow: hidden; background: var(--paper); transform-origin: top left; }
+  .copy { position: absolute; left: 0; right: 0; text-align: center; }
+  h1 { margin: 0; text-wrap: balance; font-family: 'Fraunces', Georgia, serif; font-weight: 300; color: var(--ink); letter-spacing: -0.02em; }
+  p { margin: 0; text-wrap: balance; font-family: -apple-system, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif; color: var(--ink2); }
+  /* The device: a flat titanium edge, a black bezel, the real screen inside.
+     Simulator captures don't include the Dynamic Island, so it's drawn on. */
+  .device { position: absolute; left: 50%; transform: translateX(-50%); background: #3A3834; box-sizing: border-box; }
+  .dark .device { background: #4A4843; }
+  .bezel { background: #0B0B0A; box-sizing: border-box; }
+  .screen { position: relative; overflow: hidden; background: var(--paper); }
+  .screen img { display: block; width: 100%; }
+  .island { position: absolute; left: 50%; transform: translateX(-50%); background: #000; border-radius: 999px; }
+  .button { position: absolute; background: #3A3834; }
+  .dark .button { background: #4A4843; }
+  /* Widgets: rendered large and alone, like a product shot. */
+  .widgets { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; }
+  .card { background: var(--raised); box-shadow: 0 0 0 4px var(--line); color: var(--ink);
+          font-family: -apple-system, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif; box-sizing: border-box; }
+  .row { display: flex; align-items: center; }
+  .name { font-weight: 600; }
+  .muted { color: var(--ink2); }
+  .serif { font-family: 'Fraunces', Georgia, serif; font-weight: 300; }
+</style>
+</head>
+<body>
+<div id="shot"></div>
+<script>
+  const q = new URLSearchParams(location.search);
+  const page = PAGES[q.get('page') || 'main'];
+  const shotId = q.get('shot') || 'ring';
+  const shot = SHOTS[shotId];
+  const lang = q.get('lang') || 'en';
+  const dev = DEVICES[q.get('device') || 'iphone'];
+  const dark = q.get('theme') === 'dark' || shot.dark;
+  const words = HEADLINES[lang] || HEADLINES.en;
+  const key = shotId === 'ring' && page.ring ? page.ring : shotId;
+  const [head, sub] = words[key] || HEADLINES.en[key];
+  const u = dev.width / 1320;           // everything is laid out for the iPhone and scaled
+  const el = document.getElementById('shot');
+  el.style.width = dev.width + 'px';
+  el.style.height = dev.height + 'px';
+  if (dark) el.classList.add('dark');
+  document.documentElement.dir = ['ar', 'he', 'ur'].includes(lang) ? 'rtl' : 'ltr';
+
+  const headTop = 190 * u;
+  el.innerHTML = `
+    <div class="copy" style="top:${headTop}px; padding:0 ${110 * u}px">
+      <h1 style="font-size:${112 * u}px; line-height:1.08">${head}</h1>
+      <p style="font-size:${46 * u}px; line-height:1.4; margin-top:${36 * u}px">${sub}</p>
+    </div>`;
+
+  const below = headTop + 540 * u;
+  if (shot.kind === 'framed') {
+    const w = dev.screenWidth;
+    const phone = q.get('device') !== 'ipad';
+    const bezel = phone ? w * 0.03 : w * 0.035;   // black border around the screen
+    const edge = phone ? w * 0.009 : w * 0.006;   // titanium (or aluminium) rim
+    const r = dev.radius;                          // the screen's own corner
+    const tall = w * (phone ? 2868 / 1320 : 2752 / 2064);
+    // iPhone 17 Pro Max: Action button and volume on the left, side button
+    // and Camera Control on the right (positions as a share of the height).
+    const buttons = phone
+      ? [['left', 0.165, 0.035], ['left', 0.235, 0.06], ['left', 0.31, 0.06], ['right', 0.245, 0.09], ['right', 0.47, 0.05]]
+          .map(([side, at, len]) => `<div class="button" style="${side}:${-edge * 0.9}px; top:${tall * at}px; width:${edge * 1.4}px; height:${tall * len}px; border-radius:${edge}px"></div>`).join('')
+      : '';
+    el.insertAdjacentHTML('beforeend', `
+      <div class="device" style="top:${below}px; width:${w + 2 * (bezel + edge)}px; padding:${edge}px; border-radius:${r + bezel + edge}px">
+        ${buttons}
+        <div class="bezel" style="padding:${bezel}px; border-radius:${r + bezel}px">
+          <div class="screen" style="border-radius:${r}px">
+            <img src="${q.get('src') || ''}" alt="">
+            ${phone ? `<div class="island" style="top:${w * 0.026}px; width:${w * 0.285}px; height:${w * 0.084}px"></div>` : ''}
+          </div>
+        </div>
+      </div>`);
+  } else {
+    // The real Home Screen grid at ~3x: two small widgets exactly as wide as
+    // one medium, then the Live Activity at that same width, with the Dynamic
+    // Island above. Layouts follow src/widgets (SpacerWidget, SpacerActivity).
+    const s = 3.0 * u;
+    const W = 338 * s, gap = 22 * s;
+    const ring = (size, p, color) => {
+      const r = size / 2 - size * 0.09, c = 2 * Math.PI * r;
+      return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" style="flex:none"><circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="var(--line)" stroke-width="${size * 0.13}"/><circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="${color}" stroke-width="${size * 0.13}" stroke-linecap="round" stroke-dasharray="${c * p} ${c}" transform="rotate(-90 ${size / 2} ${size / 2})"/></svg>`;
+    };
+    const big = (parts, size) => parts.map(([n, unit], i) =>
+      `<span class="serif" style="font-size:${size}px">${i ? ' ' : ''}${n}</span><span class="serif muted" style="font-size:${Math.round(size * 0.45)}px">${unit}</span>`).join('');
+    const small = (name, color, p, label, parts, sub) => `
+      <div class="card" style="width:${158 * s}px; height:${158 * s}px; border-radius:${22 * s}px; padding:${16 * s}px; display:flex; flex-direction:column">
+        <div class="row" style="gap:${8 * s}px">${ring(20 * s, p, color)}<span class="name" style="font-size:${13 * s}px">${name}</span></div>
+        <div style="flex:1"></div>
+        <div class="muted" style="font-size:${13 * s}px">${label}</div>
+        <div style="line-height:1.1">${big(parts, 32 * s)}</div>
+        <div class="muted" style="font-size:${13 * s}px">${sub}</div>
+      </div>`;
+    const habits = [
+      ['Vaping', 'Open in 1h 12m', 0.62, '#6B8F71'],
+      ['Drinking', 'Next on Saturday', 0.4, '#A07E65'],
+      ['Doom-scrolling', '38m left today', 0.75, '#7C90A4'],
+    ];
+    el.insertAdjacentHTML('beforeend', `
+      <div class="widgets" style="top:${below}px; bottom:${120 * u}px; justify-content:center; gap:${64 * u}px">
+        <div class="row" style="width:${W}px; justify-content:center">
+          <div class="row" style="background:#000; border-radius:${19 * s}px; height:${37 * s}px; width:${236 * s}px; padding:0 ${12 * s}px; box-sizing:border-box; justify-content:space-between">
+            ${ring(16 * s, 0.62, '#7FA285')}
+            <span class="serif" style="font-size:${15 * s}px; color:#F2EFE9">1:12:40</span>
+          </div>
+        </div>
+        <div class="row" style="width:${W}px; gap:${gap}px">
+          ${small('Vaping', '#6B8F71', 0.62, 'Open in', [['1', 'h'], ['12', 'm']], 'at 3:40 PM')}
+          ${small('Doom-scrolling', '#7C90A4', 0.75, 'Left today', [['38', 'm']], 'of 45m')}
+        </div>
+        <div class="card" style="width:${W}px; height:${158 * s}px; border-radius:${22 * s}px; padding:${16 * s}px">
+          ${habits.map(([n, row, p, col]) => `
+            <div class="row" style="gap:${12 * s}px; margin-bottom:${10 * s}px">
+              ${ring(26 * s, p, col)}
+              <div><div class="name" style="font-size:${15 * s}px">${n}</div><div class="muted" style="font-size:${13 * s}px">${row}</div></div>
+            </div>`).join('')}
+        </div>
+        <div class="card" style="width:${W}px; border-radius:${24 * s}px; padding:${16 * s}px">
+          <div class="row" style="gap:${14 * s}px">
+            ${ring(34 * s, 0.62, '#6B8F71')}
+            <div style="flex:1"><div class="name" style="font-size:${15 * s}px">Vaping</div><div class="muted" style="font-size:${13 * s}px">Waiting</div></div>
+            <div style="text-align:end"><div class="serif" style="font-size:${34 * s}px; line-height:1">1:12:40</div><div class="muted" style="font-size:${12 * s}px">opens at 3:40 PM</div></div>
+          </div>
+        </div>
+      </div>`);
+  }
+
+  if (q.get('preview')) {
+    // Fixed, so the full-size layout box never widens the page (a phone-sized
+    // viewport would otherwise zoom out to fit it before we can scale it).
+    Object.assign(el.style, { position: 'fixed', top: '0', left: '0' });
+    const fit = () => {
+      const k = Math.min(innerWidth / dev.width, innerHeight / dev.height);
+      el.style.transform = `scale(${k})`;
+      // The page keeps the unscaled size for layout; clip it to the scaled box.
+      document.body.style.width = dev.width * k + 'px';
+      document.body.style.height = dev.height * k + 'px';
+      document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
+    };
+    fit();
+    addEventListener('resize', fit);
+  }
+</script>
+</body>
+</html>

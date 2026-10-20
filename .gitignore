@@ -1,0 +1,6 @@
+app.tar.gz
+app/
+work/
+screenshots/raw/
+screenshots/out/
+node_modules/

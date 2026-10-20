@@ -1,0 +1,84 @@
+appId: com.mikaal.spacer
+---
+# One page's raw screens, in the language the simulator is set to.
+# env: PAGE  = main | vaping | smoking | drinking | screens
+#      SCOPE = all   (every screen; the main page)
+#              page  (only the screens that change with the habit; product pages
+#                     reuse the rest from the main page)
+#      DEVICE = iphone | ipad
+#
+# The screenshot build (EXPO_PUBLIC_SCREENSHOT_MODE=1) accepts spacer:// links
+# that seed a set and open a screen (src/utils/screenshotLinks.ts), so nothing
+# here taps through the UI and no selector depends on the language.
+# takeScreenshot takes plain names; the workflow collects the files afterwards.
+
+# No clearState: the seed link wipes the app data itself, and clearing would
+# also wipe the per-app language the workflow sets before each language.
+- launchApp:
+    permissions:
+      notifications: deny
+
+- openLink: spacer://seed/${PAGE}
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+# Required: if seeding failed, stop here rather than three screens later.
+- extendedWaitUntil:
+    visible:
+      id: "quiet-urge-bar"
+    timeout: 30000
+- waitForAnimationToEnd:
+    timeout: 6000
+
+# 1. The habit ring
+- openLink: spacer://open/habit?i=0
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "detail-urge-btn"
+    timeout: 15000
+    optional: true
+- waitForAnimationToEnd:
+    timeout: 6000
+- takeScreenshot: ${PAGE}_ring
+
+# 2. Your path
+- openLink: spacer://open/insights?i=0&focus=path
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "history-screen"
+    timeout: 15000
+- waitForAnimationToEnd:
+    timeout: 8000
+- takeScreenshot: ${PAGE}_path
+
+# 4. When it happens (and what sets it off, just below)
+- openLink: spacer://open/insights?i=0&focus=when
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "history-screen"
+    timeout: 15000
+- waitForAnimationToEnd:
+    timeout: 8000
+- takeScreenshot: ${PAGE}_when
+
+- runFlow:
+    when:
+      true: ${SCOPE == 'all'}
+    file: capture-shared.yaml

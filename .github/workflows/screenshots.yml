@@ -1,0 +1,193 @@
+name: App Store screenshots
+
+# Public on purpose: GitHub doesn't count Actions minutes for public repos, Mac
+# runners included. The app's source stays private. This repo only holds the
+# capture, framing and upload steps, copied from the app repo by its
+# "npm run screenshots" (scripts/screenshots.js), which also starts the EAS build.
+#
+#   app      (Linux)  waits for the EAS "screenshots" build and downloads it
+#   capture  (macOS)  2 Macs per device, each taking half the languages
+#   compose  (Linux)  frames each screen at App Store size
+#   upload   (Linux)  only when asked: listing text, main page, product pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_id:
+        description: 'EAS build ID (empty = newest finished screenshots build)'
+        default: ''
+      languages:
+        description: 'App languages, comma separated, or "all"'
+        default: all
+      devices:
+        description: 'iphone, ipad or both'
+        default: iphone,ipad
+      upload:
+        description: 'Upload to App Store Connect when done'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: screenshots
+  cancel-in-progress: false
+
+jobs:
+  app:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wait for the EAS build and download it
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: node fetch-app.js "${{ inputs.build_id }}" > app.tar.gz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: app
+          path: app.tar.gz
+          retention-days: 3
+
+  capture:
+    needs: app
+    runs-on: macos-15
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        device: [iphone, ipad]
+        part: [1, 2]
+    steps:
+      - name: Skip devices not asked for
+        id: want
+        run: |
+          if [[ ",${{ inputs.devices }}," == *",${{ matrix.device }},"* ]]; then echo "run=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.want.outputs.run
+      - uses: actions/download-artifact@v4
+        if: steps.want.outputs.run
+        with:
+          name: app
+      - name: Install Maestro
+        if: steps.want.outputs.run
+        run: |
+          curl -Ls "https://get.maestro.mobile.dev" | bash
+          echo "$HOME/.maestro/bin" >> "$GITHUB_PATH"
+      - name: Boot the App Store-size simulator
+        if: steps.want.outputs.run
+        run: |
+          # 6.9" iPhone (1320x2868) and 13" iPad (2064x2752): the newest of each
+          # the runner's Xcode has.
+          if [ "${{ matrix.device }}" = iphone ]; then pattern='iPhone [0-9]+ Pro Max'; else pattern='iPad Pro 13-inch'; fi
+          udid=$(xcrun simctl list devices available -j | node -e "
+            const d=JSON.parse(require('fs').readFileSync(0,'utf8')).devices;
+            const all=Object.entries(d).flatMap(([rt,l])=>l.map(x=>({...x,rt})));
+            const m=all.filter(x=>new RegExp(process.argv[1]).test(x.name)).sort((a,b)=>(a.rt+a.name).localeCompare(b.rt+b.name,undefined,{numeric:true}));
+            if(!m.length){console.error('no simulator matching',process.argv[1]);process.exit(1)}
+            const x=m[m.length-1];console.error('using',x.name,x.rt);console.log(x.udid)" "$pattern")
+          echo "UDID=$udid" >> "$GITHUB_ENV"
+          xcrun simctl boot "$udid"
+          xcrun simctl bootstatus "$udid" -b
+          xcrun simctl ui "$udid" appearance light
+          # 9:41, full Wi-Fi, full signal, full battery, not charging.
+          xcrun simctl status_bar "$udid" override --time "9:41" --dataNetwork wifi --wifiMode active --wifiBars 3 \
+            --cellularMode active --cellularBars 4 --batteryState discharging --batteryLevel 100
+          mkdir app && tar -xzf app.tar.gz -C app
+          xcrun simctl install "$udid" "$(find app -maxdepth 3 -name '*.app' | head -1)"
+      - name: Capture this half of the languages
+        if: steps.want.outputs.run
+        run: |
+          # Ordered by App Store reach, so the biggest markets come first.
+          all="en es pt fr de ja zh zh-Hant ko it ru tr nl pl ar id vi sv da fi hi ms uk"
+          langs="${{ inputs.languages }}"; [ "$langs" = all ] && langs="$all"; langs="${langs//,/ }"
+          region() { case "$1" in zh-Hant) echo TW;; uk) echo UA;; vi) echo VN;; en) echo US;; pt) echo BR;; zh) echo CN;; ja) echo JP;; ko) echo KR;; ar) echo SA;; hi) echo IN;; ms) echo MY;; da) echo DK;; sv) echo SE;; *) echo "$1" | tr a-z A-Z;; esac; }   # macOS bash 3.2: no ${1^^}
+          mkdir -p work
+          i=0
+          for lang in $langs; do
+            i=$((i+1))
+            # Alternate languages between the two Macs of this device.
+            [ $(( (i + ${{ matrix.part }}) % 2 )) -eq 0 ] || continue
+            # The app's own language, so nothing needs a reboot between languages.
+            xcrun simctl spawn "$UDID" defaults write com.mikaal.spacer AppleLanguages -array "$lang"
+            xcrun simctl spawn "$UDID" defaults write com.mikaal.spacer AppleLocale "${lang%%-*}_$(region "$lang")"
+            for page in main vaping smoking drinking screens; do
+              scope=page; [ "$page" = main ] && scope=all
+              # -e must come before the flow file.
+              (cd work && maestro --device "$UDID" test \
+                -e PAGE="$page" -e SCOPE="$scope" -e DEVICE="${{ matrix.device }}" \
+                ../.github/maestro/capture.yaml)
+            done
+            mkdir -p "screenshots/raw/${{ matrix.device }}/$lang"
+            # Maestro saves takeScreenshot files in its own run folder.
+            find ~/.maestro/tests -path '*/takeScreenshot/*' -name '*.png' -exec mv {} "screenshots/raw/${{ matrix.device }}/$lang/" \;
+            echo "$lang: $(ls screenshots/raw/${{ matrix.device }}/$lang | wc -l) screens"
+          done
+      - uses: actions/upload-artifact@v4
+        if: steps.want.outputs.run
+        with:
+          name: raw-${{ matrix.device }}-${{ matrix.part }}
+          path: screenshots/raw
+          retention-days: 3
+      - uses: actions/upload-artifact@v4
+        if: failure() && steps.want.outputs.run
+        with:
+          name: maestro-debug-${{ matrix.device }}-${{ matrix.part }}
+          path: ~/.maestro/tests
+          retention-days: 3
+
+  compose:
+    needs: capture
+    if: always() && needs.capture.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: raw-*
+          path: screenshots/raw
+          merge-multiple: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Frame every screen
+        run: |
+          mkdir -p /tmp/pw && cd /tmp/pw && npm init -y >/dev/null && npm i --no-audit --no-fund playwright@1.49.1 && npx playwright install --with-deps chromium
+          cd "$GITHUB_WORKSPACE"
+          langs="$(find screenshots/raw -mindepth 2 -maxdepth 2 -type d -printf '%f\n' | sort -u | paste -sd, -)"
+          NODE_PATH=/tmp/pw/node_modules node screenshots/compose/compose.js \
+            --raw screenshots/raw --out screenshots/out --langs "$langs" --devices "${{ inputs.devices }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: screenshots/out
+          retention-days: 14
+
+  upload:
+    needs: compose
+    if: always() && needs.compose.result == 'success' && inputs.upload
+    runs-on: ubuntu-latest
+    # Apple allows about 3600 API calls an hour; every language and page takes
+    # a few hours, and the uploader waits out the limit when it hits it.
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: screenshots
+          path: screenshots/out
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Upload to App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        # The listing text from store.config.json first, then the screenshots.
+        run: node screenshots/upload/upload.js --dir screenshots/out --app 6778286207 --listing

@@ -1,0 +1,100 @@
+appId: com.mikaal.spacer
+---
+# The screens every page shares, captured once from the main page's data.
+
+# 3. The urge screen (always dark)
+- openLink: spacer://open/urge?i=0
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- waitForAnimationToEnd:
+    timeout: 8000
+- takeScreenshot: ${PAGE}_urge
+
+# 5. What's working
+- openLink: spacer://open/insights?i=0&focus=working
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "history-screen"
+    timeout: 15000
+- waitForAnimationToEnd:
+    timeout: 8000
+- takeScreenshot: ${PAGE}_working
+
+# 6. The slip screen
+- openLink: spacer://open/slip?i=0
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- waitForAnimationToEnd:
+    timeout: 6000
+- takeScreenshot: ${PAGE}_slip
+
+# 7. In your words
+- openLink: spacer://open/insights?i=0&focus=words
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "history-screen"
+    timeout: 15000
+- waitForAnimationToEnd:
+    timeout: 8000
+- takeScreenshot: ${PAGE}_words
+
+# Worth trying, then More patterns
+- openLink: spacer://open/insights?i=0&focus=patterns
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "history-screen"
+    timeout: 15000
+- waitForAnimationToEnd:
+    timeout: 8000
+- takeScreenshot: ${PAGE}_patterns
+
+# 8. iPad only: Insights in two columns, from the top
+- runFlow:
+    when:
+      true: ${DEVICE == 'ipad'}
+    commands:
+      - openLink: spacer://open/insights?i=0
+      # iOS asks "Open in spacer?" for links from outside the app. The alert
+      # follows the simulator language, which stays English.
+      - tapOn:
+          text: "Open"
+          optional: true
+      - extendedWaitUntil:
+          visible:
+            id: "history-screen"
+          timeout: 15000
+      - waitForAnimationToEnd:
+          timeout: 8000
+      - takeScreenshot: ${PAGE}_ipad
+
+# 10. The habit list, for "No account. Stays on your device."
+- openLink: spacer://open/home
+# iOS asks "Open in spacer?" for links from outside the app. The alert
+# follows the simulator language, which stays English.
+- tapOn:
+    text: "Open"
+    optional: true
+- waitForAnimationToEnd:
+    timeout: 6000
+- takeScreenshot: ${PAGE}_private
