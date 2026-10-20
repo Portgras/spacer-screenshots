@@ -103,9 +103,9 @@ jobs:
         if: steps.want.outputs.run
         run: |
           # Ordered by App Store reach, so the biggest markets come first.
-          all="en es pt fr de ja zh zh-Hant ko it ru tr nl pl ar id vi sv da fi hi ms uk"
+          all="en es pt fr de ja zh zh-Hant ko it ru tr nl pl ar id vi th sv da nb fi he cs el ro hu hi ms uk"
           langs="${{ inputs.languages }}"; [ "$langs" = all ] && langs="$all"; langs="${langs//,/ }"
-          region() { case "$1" in zh-Hant) echo TW;; uk) echo UA;; vi) echo VN;; en) echo US;; pt) echo BR;; zh) echo CN;; ja) echo JP;; ko) echo KR;; ar) echo SA;; hi) echo IN;; ms) echo MY;; da) echo DK;; sv) echo SE;; *) echo "$1" | tr a-z A-Z;; esac; }   # macOS bash 3.2: no ${1^^}
+          region() { case "$1" in zh-Hant) echo TW;; nb) echo NO;; he) echo IL;; el) echo GR;; cs) echo CZ;; uk) echo UA;; vi) echo VN;; en) echo US;; pt) echo BR;; zh) echo CN;; ja) echo JP;; ko) echo KR;; ar) echo SA;; hi) echo IN;; ms) echo MY;; da) echo DK;; sv) echo SE;; *) echo "$1" | tr a-z A-Z;; esac; }   # macOS bash 3.2: no ${1^^}
           mkdir -p work
           i=0
           for lang in $langs; do

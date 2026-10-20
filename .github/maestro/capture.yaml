@@ -24,11 +24,26 @@ appId: com.mikaal.spacer
 - tapOn:
     text: "Open"
     optional: true
+- extendedWaitUntil:
+    visible:
+      id: "quiet-urge-bar"
+    timeout: 20000
+    optional: true
+# A cold first launch can still miss the link: send it once more.
+- runFlow:
+    when:
+      notVisible:
+        id: "quiet-urge-bar"
+    commands:
+      - openLink: spacer://seed/${PAGE}
+      - tapOn:
+          text: "Open"
+          optional: true
 # Required: if seeding failed, stop here rather than three screens later.
 - extendedWaitUntil:
     visible:
       id: "quiet-urge-bar"
-    timeout: 30000
+    timeout: 40000
 - waitForAnimationToEnd:
     timeout: 6000
 
